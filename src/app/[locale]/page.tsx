@@ -32,7 +32,7 @@ export default async function HomePage({ params }: PageProps) {
         <Skills dict={dict.skills} />
         <Projects dict={dict.projects} />
         <Education dict={dict.education} />
-        <Gallery dict={dict.gallery} galleries={galleries} />
+        <Gallery dict={dict.gallery} a11y={dict.a11y} galleries={galleries} />
         <Contact dict={dict.contact} />
       </main>
       <Footer dict={dict.footer} />

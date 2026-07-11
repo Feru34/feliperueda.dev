@@ -19,7 +19,10 @@
     "switchLanguage": "Switch language",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
-    "photoOf": "Photo of"
+    "photoOf": "Photo of",
+    "prevPhoto": "Previous photo",
+    "nextPhoto": "Next photo",
+    "goToPhoto": "Go to photo"
   },
   "hero": {
     "badge": "Open to remote work",
@@ -72,7 +75,7 @@
         ]
       },
       "managementSolutions": {
-        "role": "Assistant Consultant",
+        "role": "IT Consultant",
         "company": "Management Solutions (FinTech)",
         "location": "Bogotá",
         "period": "Jan 2025 — Jan 2026",

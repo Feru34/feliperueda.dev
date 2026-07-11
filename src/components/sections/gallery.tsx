@@ -1,16 +1,17 @@
-import Image from "next/image";
 import type { Dictionary } from "@/i18n/get-dictionary";
 import type { EventGallery } from "@/lib/gallery";
 import { humanizeSlug } from "@/lib/gallery";
 import { Section } from "@/components/ui/section";
 import { Reveal } from "@/components/ui/reveal";
+import { Carousel } from "@/components/ui/carousel";
 
 type GalleryProps = {
   dict: Dictionary["gallery"];
+  a11y: Dictionary["a11y"];
   galleries: EventGallery[];
 };
 
-export function Gallery({ dict, galleries }: GalleryProps) {
+export function Gallery({ dict, a11y, galleries }: GalleryProps) {
   if (galleries.length === 0) return null;
 
   return (
@@ -19,35 +20,19 @@ export function Gallery({ dict, galleries }: GalleryProps) {
         {galleries.map(({ slug, date, images }, index) => {
           const meta = dict.events[slug as keyof typeof dict.events];
           const title = meta?.title ?? humanizeSlug(slug);
-          const [cover, ...rest] = images;
 
           return (
             <Reveal key={slug} delay={index * 100}>
-              <figure className="group overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50/50 dark:border-zinc-800 dark:bg-zinc-900/40">
-                <div className="relative aspect-[4/3] overflow-hidden">
-                  <Image
-                    src={cover}
-                    alt={title}
-                    fill
-                    sizes="(max-width: 640px) 100vw, 50vw"
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
-                {rest.length > 0 && (
-                  <div className="grid grid-cols-5 gap-1 p-1">
-                    {rest.map((image) => (
-                      <div key={image} className="relative aspect-square overflow-hidden rounded-lg">
-                        <Image
-                          src={image}
-                          alt={title}
-                          fill
-                          sizes="120px"
-                          className="object-cover transition-transform duration-300 hover:scale-110"
-                        />
-                      </div>
-                    ))}
-                  </div>
-                )}
+              <figure className="overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50/50 dark:border-zinc-800 dark:bg-zinc-900/40">
+                <Carousel
+                  images={images}
+                  title={title}
+                  labels={{
+                    prev: a11y.prevPhoto,
+                    next: a11y.nextPhoto,
+                    goTo: a11y.goToPhoto,
+                  }}
+                />
                 <figcaption className="p-5">
                   <div className="flex items-baseline justify-between gap-3">
                     <h3 className="font-display text-base font-semibold text-zinc-900 dark:text-white">
