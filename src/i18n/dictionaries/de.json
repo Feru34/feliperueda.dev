@@ -114,18 +114,21 @@
     "items": {
       "andestrack": {
         "name": "AndesTrack",
-        "tag": "Abschlussarbeit",
-        "description": "Django-basierte Webplattform, die die Garmin-API mit MySQL verbindet, um den Zusammenhang zwischen Gesundheitsgewohnheiten und Studienleistung zu analysieren. Bereitgestellt auf Linux mit Gunicorn."
+        "tag": "Abschlussarbeit · 2025",
+        "description": "Webplattform, die dein Garmin-Konto verbindet, um die Korrelation zwischen Gesundheitsgewohnheiten und Studienleistung zu analysieren. Entstanden, um das Studienleben ins Gleichgewicht zu bringen, vereint sie akademische und persönliche Daten in einem Werkzeug für bessere Ergebnisse und mehr Wohlbefinden. Bachelorarbeit in Co-Autorschaft, betreut von Mario Sánchez Puccini und veröffentlicht im institutionellen Repositorium Séneca. Gebaut mit Django und MySQL, bereitgestellt auf Linux mit Gunicorn.",
+        "linkLabel": "Abschlussarbeit auf Séneca lesen"
       },
       "ragAnalyzer": {
         "name": "RAG-Finanzanalysator",
         "tag": "Angewandte KI",
-        "description": "Retrieval-Augmented-Generation-Anwendung mit Python Flask und der OpenAI-API, die komplexe Bilanzierungsrichtlinien aus mehreren Finanzbericht-PDFs automatisch extrahiert, analysiert und vergleicht."
+        "description": "Retrieval-Augmented-Generation-Anwendung mit Python Flask und der OpenAI-API, die komplexe Bilanzierungsrichtlinien aus mehreren Finanzbericht-PDFs automatisch extrahiert, analysiert und vergleicht.",
+        "linkLabel": ""
       },
       "riskPlatform": {
         "name": "Cloud-Risikoplattform",
         "tag": "Cloud-Architektur",
-        "description": "End-to-End-Risikoinformationssystem auf AWS: Migration einer Legacy-Datenbank, Java-Spring-Boot-Microservices, Angular-Frontend und Python-ETL-Pipelines mit Sicherheit auf Unternehmensniveau."
+        "description": "End-to-End-Risikoinformationssystem auf AWS: Migration einer Legacy-Datenbank, Java-Spring-Boot-Microservices, Angular-Frontend und Python-ETL-Pipelines mit Sicherheit auf Unternehmensniveau.",
+        "linkLabel": ""
       }
     }
   },
@@ -160,15 +163,18 @@
     "events": {
       "representacion-estudiantil": {
         "title": "Studierendenvertretung",
-        "description": "Momente des Wandels im Fachbereich: Auszeichnungen, die offiziellen Hoodies und eine engere Gemeinschaft."
+        "description": "Momente des Wandels im Fachbereich: Auszeichnungen, die offiziellen Hoodies und eine engere Gemeinschaft.",
+        "linkLabel": ""
       },
       "codefest-adastra-ai": {
-        "title": "CodeFest Ad Astra — KI",
-        "description": "Veranstaltung zu künstlicher Intelligenz mit der IEEE Computer Society."
+        "title": "CodeFest Ad Astra · EagleView AI",
+        "description": "KI-Challenge der kolumbianischen Luftwaffe und der Uniandes: Mit dem Team der IEEE Computer Society entwickelten wir EagleView AI, eine Software zur Objekterkennung in Videos von luftgestützten Sensoren, eingesetzt zur Erkennung von Aktivitäten wie illegalem Bergbau.",
+        "linkLabel": "Projekt auf Instagram ansehen"
       },
       "computer-society": {
         "title": "IEEE Computer Society",
-        "description": "Gemeinschaft und Aktivitäten der Studierendengruppe an der Uniandes."
+        "description": "Gemeinschaft und Aktivitäten der Studierendengruppe an der Uniandes.",
+        "linkLabel": ""
       }
     }
   },

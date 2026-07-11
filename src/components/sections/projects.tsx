@@ -30,15 +30,19 @@ export function Projects({ dict }: ProjectsProps) {
                     <Chip key={tag} label={tag} />
                   ))}
                 </div>
-                {link && (
+                {link && item.linkLabel && (
                   <a
                     href={link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-sky-600 hover:underline dark:text-sky-400"
+                    className="group/link mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-sky-600 hover:underline dark:text-sky-400"
                   >
-                    {item.name}
-                    <ArrowRightIcon width={14} height={14} />
+                    {item.linkLabel}
+                    <ArrowRightIcon
+                      width={14}
+                      height={14}
+                      className="transition-transform group-hover/link:translate-x-0.5"
+                    />
                   </a>
                 )}
               </article>

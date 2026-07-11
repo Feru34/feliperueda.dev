@@ -114,18 +114,21 @@
     "items": {
       "andestrack": {
         "name": "AndesTrack",
-        "tag": "Mémoire de fin d'études",
-        "description": "Plateforme web Django intégrant l'API Garmin avec MySQL pour analyser la relation entre habitudes de santé et performance académique. Déployée sur Linux avec Gunicorn."
+        "tag": "Mémoire de fin d'études · 2025",
+        "description": "Plateforme web qui connecte votre compte Garmin pour analyser la corrélation entre habitudes de santé et performance académique. Née pour équilibrer la vie universitaire, elle intègre données académiques et personnelles dans un seul outil qui améliore les résultats comme le bien-être. Mémoire de licence co-écrit, dirigé par Mario Sánchez Puccini et publié dans le dépôt institutionnel Séneca. Construite avec Django et MySQL, déployée sur Linux avec Gunicorn.",
+        "linkLabel": "Lire le mémoire sur Séneca"
       },
       "ragAnalyzer": {
         "name": "Analyseur financier RAG",
         "tag": "IA appliquée",
-        "description": "Application de Retrieval-Augmented Generation construite avec Python Flask et l'API OpenAI, qui extrait, analyse et compare automatiquement des politiques comptables complexes entre plusieurs états financiers en PDF."
+        "description": "Application de Retrieval-Augmented Generation construite avec Python Flask et l'API OpenAI, qui extrait, analyse et compare automatiquement des politiques comptables complexes entre plusieurs états financiers en PDF.",
+        "linkLabel": ""
       },
       "riskPlatform": {
         "name": "Plateforme cloud des risques",
         "tag": "Architecture cloud",
-        "description": "Système d'information des risques de bout en bout sur AWS : migration de base de données legacy, microservices Java Spring Boot, frontend Angular et pipelines ETL en Python avec une sécurité de niveau entreprise."
+        "description": "Système d'information des risques de bout en bout sur AWS : migration de base de données legacy, microservices Java Spring Boot, frontend Angular et pipelines ETL en Python avec une sécurité de niveau entreprise.",
+        "linkLabel": ""
       }
     }
   },
@@ -160,15 +163,18 @@
     "events": {
       "representacion-estudiantil": {
         "title": "Représentation étudiante",
-        "description": "Des moments du changement impulsé dans le département : reconnaissances, sweats officiels et une communauté plus soudée."
+        "description": "Des moments du changement impulsé dans le département : reconnaissances, sweats officiels et une communauté plus soudée.",
+        "linkLabel": ""
       },
       "codefest-adastra-ai": {
-        "title": "CodeFest Ad Astra — IA",
-        "description": "Événement d'intelligence artificielle avec l'IEEE Computer Society."
+        "title": "CodeFest Ad Astra · EagleView AI",
+        "description": "Défi d'IA de la Force aérienne colombienne et d'Uniandes : avec l'équipe de l'IEEE Computer Society, nous avons développé EagleView AI, un logiciel de reconnaissance d'objets dans des vidéos captées par des capteurs aéroportés, appliqué à la détection d'activités comme l'exploitation minière illégale.",
+        "linkLabel": "Voir le projet sur Instagram"
       },
       "computer-society": {
         "title": "IEEE Computer Society",
-        "description": "Communauté et activités du chapitre étudiant à Uniandes."
+        "description": "Communauté et activités du chapitre étudiant à Uniandes.",
+        "linkLabel": ""
       }
     }
   },

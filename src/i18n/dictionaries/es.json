@@ -114,18 +114,21 @@
     "items": {
       "andestrack": {
         "name": "AndesTrack",
-        "tag": "Tesis de grado",
-        "description": "Plataforma web en Django que integra la API de Garmin con MySQL para analizar la relación entre hábitos de salud y rendimiento académico. Desplegada en Linux con Gunicorn."
+        "tag": "Tesis de grado · 2025",
+        "description": "Plataforma web que conecta tu cuenta de Garmin para analizar la correlación entre tus hábitos de salud y tu rendimiento académico. Nacida para equilibrar la vida universitaria, integra datos académicos y personales en una sola herramienta que mejora tanto los resultados como el bienestar. Tesis de pregrado en co-autoría, dirigida por Mario Sánchez Puccini y publicada en el repositorio institucional Séneca. Construida con Django y MySQL, desplegada en Linux con Gunicorn.",
+        "linkLabel": "Leer la tesis en Séneca"
       },
       "ragAnalyzer": {
         "name": "Analizador financiero RAG",
         "tag": "IA aplicada",
-        "description": "Aplicación de Retrieval-Augmented Generation con Python Flask y la API de OpenAI que extrae, analiza y compara automáticamente políticas contables complejas entre múltiples estados financieros en PDF."
+        "description": "Aplicación de Retrieval-Augmented Generation con Python Flask y la API de OpenAI que extrae, analiza y compara automáticamente políticas contables complejas entre múltiples estados financieros en PDF.",
+        "linkLabel": ""
       },
       "riskPlatform": {
         "name": "Plataforma cloud de riesgos",
         "tag": "Arquitectura cloud",
-        "description": "Sistema de información de riesgos de punta a punta en AWS: migración de base de datos legada, microservicios Java Spring Boot, frontend Angular y pipelines ETL en Python con seguridad de nivel corporativo."
+        "description": "Sistema de información de riesgos de punta a punta en AWS: migración de base de datos legada, microservicios Java Spring Boot, frontend Angular y pipelines ETL en Python con seguridad de nivel corporativo.",
+        "linkLabel": ""
       }
     }
   },
@@ -160,15 +163,18 @@
     "events": {
       "representacion-estudiantil": {
         "title": "Representación estudiantil",
-        "description": "Momentos del cambio que impulsamos en el departamento: reconocimientos, los sacos oficiales y una comunidad más unida."
+        "description": "Momentos del cambio que impulsamos en el departamento: reconocimientos, los sacos oficiales y una comunidad más unida.",
+        "linkLabel": ""
       },
       "codefest-adastra-ai": {
-        "title": "CodeFest Ad Astra — IA",
-        "description": "Evento de inteligencia artificial junto a la IEEE Computer Society."
+        "title": "CodeFest Ad Astra · EagleView AI",
+        "description": "Reto de IA de la Fuerza Aérea Colombiana y Uniandes: con el equipo de la IEEE Computer Society desarrollamos EagleView AI, un software de reconocimiento de objetos en videos captados por sensores aerotransportados, aplicado a detectar actividades como la minería ilegal.",
+        "linkLabel": "Ver el proyecto en Instagram"
       },
       "computer-society": {
         "title": "IEEE Computer Society",
-        "description": "Comunidad y actividades del capítulo estudiantil en Uniandes."
+        "description": "Comunidad y actividades del capítulo estudiantil en Uniandes.",
+        "linkLabel": ""
       }
     }
   },

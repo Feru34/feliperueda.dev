@@ -8,6 +8,7 @@ const IMAGE_EXTENSIONS = /\.(jpe?g|png|webp|avif|gif)$/i;
 export type EventGallery = {
   slug: string;
   date?: string;
+  link?: string;
   /** Public URLs, e.g. /assets/images/events/<slug>/<file> */
   images: string[];
 };
@@ -43,6 +44,7 @@ export function getEventGalleries(): EventGallery[] {
     .map((slug) => ({
       slug,
       date: eventOrder.find((event) => event.slug === slug)?.date,
+      link: eventOrder.find((event) => event.slug === slug)?.link,
       images: fs
         .readdirSync(path.join(EVENTS_DIR, slug))
         .filter((file) => IMAGE_EXTENSIONS.test(file))

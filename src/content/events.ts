@@ -14,11 +14,17 @@ export type EventMeta = {
   slug: string;
   /** Display date, shown as-is (e.g. "2023", "Oct 2024"). */
   date?: string;
+  /** External link (post, reel, article); label comes from gallery.events.<slug>.linkLabel. */
+  link?: string;
 };
 
 /** Known events, newest first. Unknown folders are appended after these. */
 export const eventOrder: EventMeta[] = [
   { slug: "representacion-estudiantil", date: "2024" },
-  { slug: "codefest-adastra-ai" },
+  {
+    slug: "codefest-adastra-ai",
+    date: "2023 — 2024",
+    link: "https://www.instagram.com/reel/C742WN1O3hd/",
+  },
   { slug: "computer-society" },
 ];

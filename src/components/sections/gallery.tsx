@@ -4,6 +4,7 @@ import { humanizeSlug } from "@/lib/gallery";
 import { Section } from "@/components/ui/section";
 import { Reveal } from "@/components/ui/reveal";
 import { Carousel } from "@/components/ui/carousel";
+import { ArrowRightIcon } from "@/components/ui/icons";
 
 type GalleryProps = {
   dict: Dictionary["gallery"];
@@ -17,7 +18,7 @@ export function Gallery({ dict, a11y, galleries }: GalleryProps) {
   return (
     <Section id="gallery" title={dict.title} subtitle={dict.subtitle}>
       <div className="grid gap-6 sm:grid-cols-2">
-        {galleries.map(({ slug, date, images }, index) => {
+        {galleries.map(({ slug, date, link, images }, index) => {
           const meta = dict.events[slug as keyof typeof dict.events];
           const title = meta?.title ?? humanizeSlug(slug);
 
@@ -48,6 +49,21 @@ export function Gallery({ dict, a11y, galleries }: GalleryProps) {
                     <p className="mt-1.5 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
                       {meta.description}
                     </p>
+                  )}
+                  {link && meta?.linkLabel && (
+                    <a
+                      href={link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group/link mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-sky-600 hover:underline dark:text-sky-400"
+                    >
+                      {meta.linkLabel}
+                      <ArrowRightIcon
+                        width={14}
+                        height={14}
+                        className="transition-transform group-hover/link:translate-x-0.5"
+                      />
+                    </a>
                   )}
                 </figcaption>
               </figure>

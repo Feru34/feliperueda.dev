@@ -250,7 +250,9 @@ body {
    The track holds N words plus a repeat of the first for a seamless loop. */
 .word-rotator {
   display: inline-block;
-  height: 1.3em;
+  /* Each word fills exactly one line of the surrounding paragraph (1lh) so
+     baselines match the rest of the sentence at every breakpoint. */
+  height: 1lh;
   overflow: hidden;
   vertical-align: bottom;
 }
@@ -263,8 +265,7 @@ body {
 
 .word-rotator > span > span {
   display: block;
-  height: 1.3em;
-  line-height: 1.3;
+  height: 1lh;
 }
 
 @keyframes word-cycle {

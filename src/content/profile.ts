@@ -106,6 +106,8 @@ export const projects: { key: ProjectKey; tech: string[]; link?: string; repo?: 
   {
     key: "andestrack",
     tech: ["Django", "MySQL", "Garmin API", "Gunicorn", "Linux"],
+    // Permanent handle of the thesis in Uniandes' Séneca repository
+    link: "https://hdl.handle.net/1992/76147",
   },
   {
     key: "ragAnalyzer",
