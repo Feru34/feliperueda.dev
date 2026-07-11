@@ -1,7 +1,7 @@
 import type { Dictionary } from "@/i18n/get-dictionary";
 import { Section } from "@/components/ui/section";
 import { Reveal } from "@/components/ui/reveal";
-import { GraduationCapIcon } from "@/components/ui/icons";
+import { ArrowRightIcon, GraduationCapIcon } from "@/components/ui/icons";
 
 type EducationProps = {
   dict: Dictionary["education"];
@@ -47,6 +47,26 @@ export function Education({ dict }: EducationProps) {
                   <p className="mt-2 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
                     {item.description}
                   </p>
+                  {item.links.length > 0 && (
+                    <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1.5">
+                      {item.links.map((link) => (
+                        <a
+                          key={link.href}
+                          href={link.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="group inline-flex items-center gap-1 text-xs font-medium text-sky-600 hover:underline dark:text-sky-400"
+                        >
+                          {link.label}
+                          <ArrowRightIcon
+                            width={12}
+                            height={12}
+                            className="transition-transform group-hover:translate-x-0.5"
+                          />
+                        </a>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </Reveal>
             ))}

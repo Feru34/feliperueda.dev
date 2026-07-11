@@ -135,11 +135,19 @@
     "items": [
       {
         "title": "Student Representative",
-        "description": "Represented a constituency of 1,000+ students and drove a cultural shift within the department: led DISC Week with a 20-volunteer team and co-created community initiatives like the Copa Turing tournament and the \"Un café Java con...\" podcast. Bridged students and academic leadership with data-driven feedback, and managed the department's official merchandise end to end to fund new student opportunities."
+        "description": "Representing a constituency of 1,000+ students, my co-representative and I redefined the role at DISC Uniandes in 2024: we created \"Un café Java con...\" — 13 live interviews with department professors, now a podcast on Spotify —, I coordinated the design, quotation, production and official sale of the department's current hoodies, we organized the Turing Cup (sports and esports tournaments with 150+ participants) and the DISC Olympics of technical challenges, and I led DISC Week with a 20-volunteer team — always bridging students and academic leadership with data-driven feedback.",
+        "links": [
+          { "label": "ISIS Student Representatives", "href": "https://sistemas.uniandes.edu.co/en/isis-activos/representantes" },
+          { "label": "Podcast on Spotify", "href": "https://open.spotify.com/show/3ycKA26LrGABSmCwcZ4BZ1" },
+          { "label": "Department hoodies", "href": "https://www.instagram.com/p/C7-O3hqOSmC/" },
+          { "label": "The change, in photos", "href": "https://www.instagram.com/p/DDj8SMAxm9W/" },
+          { "label": "Recap on LinkedIn", "href": "https://www.linkedin.com/feed/update/urn:li:activity:7281019496784359424/" }
+        ]
       },
       {
         "title": "IEEEXtreme 17.0",
-        "description": "Competed in IEEE's global programming competition (17,000+ participants) with team CabrasRecursivas — October 2023."
+        "description": "Competed in IEEE's global programming competition (17,000+ participants) with team CabrasRecursivas — October 2023.",
+        "links": []
       }
     ]
   },
@@ -147,6 +155,10 @@
     "title": "Moments",
     "subtitle": "Milestones and events that shaped my journey",
     "events": {
+      "representacion-estudiantil": {
+        "title": "Student Representation",
+        "description": "Moments from the change we drove in the department: recognitions, the official hoodies and a closer community."
+      },
       "codefest-adastra-ai": {
         "title": "CodeFest Ad Astra — AI",
         "description": "Artificial intelligence event with the IEEE Computer Society."

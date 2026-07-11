@@ -84,6 +84,7 @@ export const experience: ExperienceEntry[] = [
     key: "finidian",
     company: "Finidian",
     tech: ["AWS", "PostgreSQL", "MongoDB", "Microservices", "CI/CD"],
+    url: "https://app.finidian.com",
   },
   {
     key: "managementSolutions",

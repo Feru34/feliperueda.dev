@@ -34,15 +34,15 @@ export function Gallery({ dict, galleries }: GalleryProps) {
                   />
                 </div>
                 {rest.length > 0 && (
-                  <div className="grid grid-cols-4 gap-1 p-1">
-                    {rest.slice(0, 4).map((image) => (
+                  <div className="grid grid-cols-5 gap-1 p-1">
+                    {rest.map((image) => (
                       <div key={image} className="relative aspect-square overflow-hidden rounded-lg">
                         <Image
                           src={image}
                           alt={title}
                           fill
                           sizes="120px"
-                          className="object-cover"
+                          className="object-cover transition-transform duration-300 hover:scale-110"
                         />
                       </div>
                     ))}

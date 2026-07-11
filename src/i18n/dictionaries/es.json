@@ -135,11 +135,19 @@
     "items": [
       {
         "title": "Representante estudiantil",
-        "description": "Representé a más de 1.000 estudiantes e impulsé un cambio cultural en el departamento: lideré la Semana DISC con un equipo de 20 voluntarios y co-creé iniciativas de comunidad como la Copa Turing y el pódcast «Un café Java con...». Articulé la comunicación entre estudiantes y dirección académica con retroalimentación basada en datos, y gestioné de punta a punta la mercancía oficial del departamento para financiar nuevas oportunidades estudiantiles."
+        "description": "Representando a más de 1.000 estudiantes, junto a mi co-representante redefinimos el rol ante DISC Uniandes en 2024: creamos «Un café Java con...» —13 entrevistas en vivo a profesores del departamento, hoy pódcast en Spotify—, coordiné el diseño, cotización, creación y venta oficial de los sacos actuales del departamento, organizamos la Copa Turing (torneos deportivos y de esports con más de 150 participantes) y las Olimpiadas DISC de retos técnicos, y lideré la Semana DISC con un equipo de 20 voluntarios — articulando siempre a estudiantes y dirección académica con retroalimentación basada en datos.",
+        "links": [
+          { "label": "Representantes ISIS", "href": "https://sistemas.uniandes.edu.co/en/isis-activos/representantes" },
+          { "label": "Pódcast en Spotify", "href": "https://open.spotify.com/show/3ycKA26LrGABSmCwcZ4BZ1" },
+          { "label": "Sacos del departamento", "href": "https://www.instagram.com/p/C7-O3hqOSmC/" },
+          { "label": "El cambio, en fotos", "href": "https://www.instagram.com/p/DDj8SMAxm9W/" },
+          { "label": "Resumen en LinkedIn", "href": "https://www.linkedin.com/feed/update/urn:li:activity:7281019496784359424/" }
+        ]
       },
       {
         "title": "IEEEXtreme 17.0",
-        "description": "Competí en la competencia mundial de programación de IEEE (más de 17.000 participantes) con el equipo CabrasRecursivas — octubre de 2023."
+        "description": "Competí en la competencia mundial de programación de IEEE (más de 17.000 participantes) con el equipo CabrasRecursivas — octubre de 2023.",
+        "links": []
       }
     ]
   },
@@ -147,6 +155,10 @@
     "title": "Momentos",
     "subtitle": "Hitos y eventos que han marcado mi camino",
     "events": {
+      "representacion-estudiantil": {
+        "title": "Representación estudiantil",
+        "description": "Momentos del cambio que impulsamos en el departamento: reconocimientos, los sacos oficiales y una comunidad más unida."
+      },
       "codefest-adastra-ai": {
         "title": "CodeFest Ad Astra — IA",
         "description": "Evento de inteligencia artificial junto a la IEEE Computer Society."

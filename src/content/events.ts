@@ -18,6 +18,7 @@ export type EventMeta = {
 
 /** Known events, newest first. Unknown folders are appended after these. */
 export const eventOrder: EventMeta[] = [
+  { slug: "representacion-estudiantil", date: "2024" },
   { slug: "codefest-adastra-ai" },
   { slug: "computer-society" },
 ];

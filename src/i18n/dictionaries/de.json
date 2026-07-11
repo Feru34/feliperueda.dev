@@ -135,11 +135,19 @@
     "items": [
       {
         "title": "Studierendenvertreter",
-        "description": "Vertrat über 1.000 Studierende und trieb einen Kulturwandel im Fachbereich voran: leitete die DISC-Woche mit einem Team von 20 Freiwilligen und initiierte Community-Formate wie das Turnier Copa Turing und den Podcast „Un café Java con...“. Verband Studierende und Fakultätsleitung durch datenbasiertes Feedback und verantwortete das offizielle Merchandising des Fachbereichs von A bis Z, um neue Angebote für Studierende zu finanzieren."
+        "description": "Als Vertreter von über 1.000 Studierenden definierten mein Co-Vertreter und ich die Rolle am DISC Uniandes 2024 neu: Wir schufen „Un café Java con...“ — 13 Live-Interviews mit Professoren des Fachbereichs, heute ein Podcast auf Spotify —, ich koordinierte Design, Kalkulation, Produktion und offiziellen Verkauf der aktuellen Fachbereichs-Hoodies, wir organisierten die Copa Turing (Sport- und E-Sport-Turniere mit über 150 Teilnehmenden) und die DISC-Olympiade mit technischen Challenges, und ich leitete die DISC-Woche mit einem Team von 20 Freiwilligen — stets als datenbasierte Brücke zwischen Studierenden und Fakultätsleitung.",
+        "links": [
+          { "label": "ISIS-Studierendenvertretung", "href": "https://sistemas.uniandes.edu.co/en/isis-activos/representantes" },
+          { "label": "Podcast auf Spotify", "href": "https://open.spotify.com/show/3ycKA26LrGABSmCwcZ4BZ1" },
+          { "label": "Fachbereichs-Hoodies", "href": "https://www.instagram.com/p/C7-O3hqOSmC/" },
+          { "label": "Der Wandel in Fotos", "href": "https://www.instagram.com/p/DDj8SMAxm9W/" },
+          { "label": "Rückblick auf LinkedIn", "href": "https://www.linkedin.com/feed/update/urn:li:activity:7281019496784359424/" }
+        ]
       },
       {
         "title": "IEEEXtreme 17.0",
-        "description": "Nahm mit dem Team CabrasRecursivas am weltweiten Programmierwettbewerb der IEEE teil (über 17.000 Teilnehmende) — Oktober 2023."
+        "description": "Nahm mit dem Team CabrasRecursivas am weltweiten Programmierwettbewerb der IEEE teil (über 17.000 Teilnehmende) — Oktober 2023.",
+        "links": []
       }
     ]
   },
@@ -147,6 +155,10 @@
     "title": "Momente",
     "subtitle": "Meilensteine und Ereignisse, die meinen Weg geprägt haben",
     "events": {
+      "representacion-estudiantil": {
+        "title": "Studierendenvertretung",
+        "description": "Momente des Wandels im Fachbereich: Auszeichnungen, die offiziellen Hoodies und eine engere Gemeinschaft."
+      },
       "codefest-adastra-ai": {
         "title": "CodeFest Ad Astra — KI",
         "description": "Veranstaltung zu künstlicher Intelligenz mit der IEEE Computer Society."
