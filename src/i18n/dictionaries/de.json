@@ -49,12 +49,23 @@
     "subtitle": "Beruflicher Werdegang",
     "present": "Heute",
     "items": {
+      "uniandesRag": {
+        "role": "AI Engineer",
+        "company": "Universidad de los Andes",
+        "location": "Akademisches Vizerektorat · Bogotá",
+        "period": "Mai 2026 — Heute",
+        "highlights": [
+          "Entwicklung einer RAG-Anwendung für Platypus, die institutionelle Projektplattform der Universität, zur Automatisierung der Erstellung und Analyse von Ausschreibungen für akademische Projekte.",
+          "Integration von Sprachmodellen in die Prozesse des Vizerektorats, um manuelle Arbeit in der Ausschreibungsverwaltung zu reduzieren — in enger Zusammenarbeit mit akademischen und administrativen Teams."
+        ]
+      },
       "finidian": {
-        "role": "Softwareentwickler",
+        "role": "Product Engineer",
         "company": "Finidian",
         "location": "Bogotá (remote)",
         "period": "Jan. 2026 — Heute",
         "highlights": [
+          "Ich arbeite an der Schnittstelle von Engineering und Produkt: End-to-End-Beiträge von der Produktdefinition und Priorisierung bis zur technischen Umsetzung in Produktion.",
           "Leitete eine kritische Datenbankmigration von MongoDB zu PostgreSQL — mit gesicherter Datenintegrität, minimaler Ausfallzeit und optimierter Abfrageleistung für skalierbare Backend-Prozesse.",
           "Entwerfe und betreibe skalierbare Cloud-Infrastruktur auf AWS für hochverfügbare Microservices und schnelle Produktiterationen.",
           "Arbeite in einem agilen Remote-Team an schlankeren Deployment-Prozessen und einer besseren Gesamtarchitektur."

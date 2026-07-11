@@ -296,16 +296,19 @@ body {
 }
 
 @supports (animation-timeline: view()) {
+  /* The drawn tip tracks the reader: it stays ~40vh down the viewport,
+     so the line "turns blue" exactly as you scroll through each role. */
   .timeline-progress {
     animation: timeline-draw linear both;
     animation-timeline: view();
-    animation-range: entry 10% cover 65%;
+    animation-range: cover 60vh cover calc(100% - 40vh);
   }
 
+  /* Each dot lights up right when the tip reaches it */
   .timeline-dot {
     animation: dot-activate linear both;
     animation-timeline: view();
-    animation-range: entry 0% entry 80%;
+    animation-range: cover 58vh cover 62vh;
   }
 }
 

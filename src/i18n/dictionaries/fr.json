@@ -49,12 +49,23 @@
     "subtitle": "Parcours professionnel",
     "present": "Aujourd'hui",
     "items": {
+      "uniandesRag": {
+        "role": "Ingénieur IA",
+        "company": "Universidad de los Andes",
+        "location": "Vice-rectorat académique · Bogotá",
+        "period": "Mai 2026 — Aujourd'hui",
+        "highlights": [
+          "Développement d'une application RAG pour Platypus, la plateforme institutionnelle de projets de l'université, afin d'automatiser la création et l'analyse des appels à projets académiques.",
+          "Intégration de modèles de langage aux processus du vice-rectorat pour réduire le travail manuel de gestion des appels, en collaboration avec les équipes académiques et administratives."
+        ]
+      },
       "finidian": {
-        "role": "Ingénieur Logiciel",
+        "role": "Ingénieur Produit",
         "company": "Finidian",
         "location": "Bogotá (à distance)",
         "period": "Janv. 2026 — Aujourd'hui",
         "highlights": [
+          "Je travaille à l'intersection de l'ingénierie et du produit : je contribue de bout en bout, de la définition et la priorisation du produit jusqu'à son implémentation technique en production.",
           "Piloté une migration critique de base de données de MongoDB vers PostgreSQL, en garantissant l'intégrité des données, en minimisant les interruptions et en optimisant les performances des requêtes.",
           "Conçois et maintiens une infrastructure cloud évolutive sur AWS, au service de microservices à haute disponibilité pour des itérations produit rapides.",
           "Collabore dans un environnement agile et à distance pour fluidifier les déploiements et améliorer l'architecture globale du système."

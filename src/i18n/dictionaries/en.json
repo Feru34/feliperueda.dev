@@ -49,12 +49,23 @@
     "subtitle": "Professional journey",
     "present": "Present",
     "items": {
+      "uniandesRag": {
+        "role": "AI Engineer",
+        "company": "Universidad de los Andes",
+        "location": "Office of the Vice President for Academic Affairs · Bogotá",
+        "period": "May 2026 — Present",
+        "highlights": [
+          "Building a RAG application for Platypus, the university's institutional project platform, to automate the creation and analysis of calls for academic projects.",
+          "Integrating language models into the Vice-Rectory's processes to cut manual work in managing calls, working hand in hand with academic and administrative teams."
+        ]
+      },
       "finidian": {
-        "role": "Software Engineer",
+        "role": "Product Engineer",
         "company": "Finidian",
         "location": "Bogotá (remote)",
         "period": "Jan 2026 — Present",
         "highlights": [
+          "Work at the intersection of engineering and product: contributing end to end, from product definition and prioritization to its technical implementation in production.",
           "Spearheaded a critical database migration from MongoDB to PostgreSQL, ensuring data integrity, minimizing downtime and optimizing query performance for scalable backend operations.",
           "Design and maintain scalable cloud infrastructure on AWS, supporting high-availability microservices for fast-paced product iterations.",
           "Collaborate in an Agile remote environment to streamline deployment processes and enhance overall system architecture."

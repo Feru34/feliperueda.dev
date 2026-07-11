@@ -56,9 +56,30 @@ export const skillGroups: { key: SkillGroupKey; items: string[] }[] = [
   },
 ];
 
-export type ExperienceKey = "finidian" | "managementSolutions" | "uniandesTA";
+export type ExperienceKey =
+  | "uniandesRag"
+  | "finidian"
+  | "managementSolutions"
+  | "uniandesTA";
 
-export const experience: { key: ExperienceKey; company: string; tech: string[] }[] = [
+export type ExperienceEntry = {
+  key: ExperienceKey;
+  company: string;
+  tech: string[];
+  /** Official site of the employer; the company name links here. */
+  url?: string;
+  /** Extra related link shown under the highlights (e.g. the product built). */
+  extraLink?: { label: string; href: string };
+};
+
+export const experience: ExperienceEntry[] = [
+  {
+    key: "uniandesRag",
+    company: "Universidad de los Andes",
+    tech: ["Python", "RAG", "LLMs"],
+    url: "https://uniandes.edu.co",
+    extraLink: { label: "platypus.uniandes.edu.co", href: "https://platypus.uniandes.edu.co/" },
+  },
   {
     key: "finidian",
     company: "Finidian",
@@ -68,11 +89,13 @@ export const experience: { key: ExperienceKey; company: string; tech: string[] }
     key: "managementSolutions",
     company: "Management Solutions",
     tech: ["AWS", "Java Spring Boot", "Angular", "Python", "Flask", "OpenAI API", "ETL"],
+    url: "https://www.managementsolutions.com",
   },
   {
     key: "uniandesTA",
     company: "Universidad de los Andes",
     tech: ["Python", "Flask", "MySQL", "REST APIs", "Pandas", "Matplotlib"],
+    url: "https://uniandes.edu.co",
   },
 ];
 

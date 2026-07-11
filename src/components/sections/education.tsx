@@ -22,7 +22,15 @@ export function Education({ dict }: EducationProps) {
                   {dict.degree}
                 </h3>
                 <p className="mt-0.5 text-sm font-medium text-sky-600 dark:text-sky-400">
-                  {dict.university} · {dict.location}
+                  <a
+                    href="https://uniandes.edu.co"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline-offset-4 hover:underline"
+                  >
+                    {dict.university}
+                  </a>{" "}
+                  · {dict.location}
                 </p>
               </div>
             </div>

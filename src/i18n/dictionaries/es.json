@@ -49,12 +49,23 @@
     "subtitle": "Trayectoria profesional",
     "present": "Presente",
     "items": {
+      "uniandesRag": {
+        "role": "Ingeniero de IA",
+        "company": "Universidad de los Andes",
+        "location": "Vicerrectoría Académica · Bogotá",
+        "period": "Mayo 2026 — Presente",
+        "highlights": [
+          "Desarrollo una aplicación RAG para Platypus, la plataforma institucional de proyectos de la universidad, orientada a automatizar la creación y el análisis de convocatorias de proyectos académicos.",
+          "Integro modelos de lenguaje con los procesos de la Vicerrectoría para reducir el trabajo manual en la gestión de convocatorias, de la mano de los equipos académicos y administrativos."
+        ]
+      },
       "finidian": {
-        "role": "Ingeniero de Software",
+        "role": "Ingeniero de Producto",
         "company": "Finidian",
         "location": "Bogotá (remoto)",
         "period": "Ene 2026 — Presente",
         "highlights": [
+          "Trabajo en la intersección de ingeniería y producto: contribuyo de punta a punta, desde la definición y priorización del producto hasta su implementación técnica en producción.",
           "Lideré una migración crítica de base de datos de MongoDB a PostgreSQL, garantizando la integridad de los datos, minimizando el downtime y optimizando el rendimiento de consultas.",
           "Diseño y mantengo infraestructura cloud escalable en AWS, soportando microservicios de alta disponibilidad para iteraciones de producto aceleradas.",
           "Colaboro en un entorno ágil y remoto para agilizar los despliegues y mejorar la arquitectura general del sistema."
