@@ -17,7 +17,7 @@ export function Projects({ dict }: ProjectsProps) {
           const item = dict.items[key];
           return (
             <Reveal key={key} delay={index * 100} className="h-full">
-              <article className="group flex h-full flex-col rounded-2xl border border-zinc-200 bg-zinc-50/50 p-6 transition-all hover:-translate-y-1 hover:border-sky-300/70 hover:shadow-lg dark:border-zinc-800 dark:bg-zinc-900/40 dark:hover:border-sky-700/70">
+              <article className="card-shine ease-spring group flex h-full flex-col rounded-2xl border border-zinc-200 bg-zinc-50/50 p-6 transition-all duration-300 hover:-translate-y-1.5 hover:border-sky-300/70 hover:shadow-xl hover:shadow-sky-500/10 dark:border-zinc-800 dark:bg-zinc-900/40 dark:hover:border-sky-700/70">
                 <span className="font-mono text-xs text-sky-600 dark:text-sky-400">{item.tag}</span>
                 <h3 className="font-display mt-2 text-lg font-semibold text-zinc-900 dark:text-white">
                   {item.name}

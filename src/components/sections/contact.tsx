@@ -13,13 +13,21 @@ export function Contact({ dict }: ContactProps) {
       <div className="mx-auto max-w-5xl px-6">
         <Reveal>
           <div className="relative overflow-hidden rounded-3xl border border-zinc-200 bg-gradient-to-br from-zinc-50 via-white to-sky-50 px-6 py-14 text-center sm:px-12 dark:border-zinc-800 dark:from-zinc-900 dark:via-zinc-950 dark:to-sky-950/40">
-            <h2 className="font-display text-3xl font-semibold tracking-tight text-zinc-900 sm:text-4xl dark:text-white">
+            <span
+              aria-hidden
+              className="orb -top-20 -left-16 h-64 w-64 bg-sky-400/25 dark:bg-sky-500/15"
+            />
+            <span
+              aria-hidden
+              className="orb -right-16 -bottom-24 h-72 w-72 bg-indigo-400/25 dark:bg-indigo-500/15 [animation-delay:-6s] [animation-duration:20s]"
+            />
+            <h2 className="font-display relative text-3xl font-semibold tracking-tight text-zinc-900 sm:text-4xl dark:text-white">
               {dict.title}
             </h2>
-            <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
+            <p className="relative mx-auto mt-4 max-w-xl text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
               {dict.subtitle}
             </p>
-            <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
+            <div className="relative mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <a
                 href={`mailto:${profile.email}`}
                 className="inline-flex items-center gap-2 rounded-full bg-zinc-900 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"
@@ -49,7 +57,7 @@ export function Contact({ dict }: ContactProps) {
                 </a>
               </div>
             </div>
-            <p className="mt-6 text-sm text-zinc-500 dark:text-zinc-400">{profile.email}</p>
+            <p className="relative mt-6 text-sm text-zinc-500 dark:text-zinc-400">{profile.email}</p>
           </div>
         </Reveal>
       </div>

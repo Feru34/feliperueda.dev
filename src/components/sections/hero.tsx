@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { profile } from "@/content/profile";
 import type { Dictionary } from "@/i18n/get-dictionary";
-import { Reveal } from "@/components/ui/reveal";
 import {
   ArrowRightIcon,
   DownloadIcon,
@@ -20,8 +19,16 @@ export function Hero({ dict, photoAlt }: HeroProps) {
   return (
     <section className="relative overflow-hidden pt-32 pb-16 sm:pt-40 sm:pb-24">
       <div aria-hidden className="hero-grid absolute inset-0 -z-10" />
+      <span
+        aria-hidden
+        className="orb -z-10 -top-24 -left-24 h-96 w-96 bg-sky-400/20 dark:bg-sky-500/20"
+      />
+      <span
+        aria-hidden
+        className="orb -z-10 top-40 right-[-8rem] h-[28rem] w-[28rem] bg-indigo-400/15 dark:bg-indigo-500/15 [animation-delay:-8s] [animation-duration:22s]"
+      />
       <div className="mx-auto grid max-w-5xl items-center gap-12 px-6 lg:grid-cols-[1.2fr_1fr]">
-        <Reveal>
+        <div className="hero-stagger">
           <span className="inline-flex items-center gap-2 rounded-full border border-emerald-300/60 bg-emerald-50 px-3 py-1 text-xs font-medium text-emerald-700 dark:border-emerald-700/60 dark:bg-emerald-950 dark:text-emerald-300">
             <span className="relative flex h-2 w-2">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
@@ -32,9 +39,7 @@ export function Hero({ dict, photoAlt }: HeroProps) {
 
           <h1 className="font-display mt-6 text-4xl font-semibold tracking-tight text-zinc-900 sm:text-5xl lg:text-6xl dark:text-white">
             {dict.greeting}{" "}
-            <span className="bg-gradient-to-r from-sky-500 to-indigo-500 bg-clip-text text-transparent">
-              Felipe
-            </span>
+            <span className="text-gradient-animated bg-clip-text text-transparent">Felipe</span>
           </h1>
 
           <p className="font-display mt-3 text-xl font-medium text-zinc-700 sm:text-2xl dark:text-zinc-300">
@@ -94,24 +99,26 @@ export function Hero({ dict, photoAlt }: HeroProps) {
               </a>
             </div>
           </div>
-        </Reveal>
+        </div>
 
-        <Reveal delay={150} className="justify-self-center lg:justify-self-end">
-          <div className="relative">
+        <div className="hero-photo-enter justify-self-center lg:justify-self-end">
+          <div className="animate-float relative">
             <div className="absolute -inset-3 rounded-[2rem] bg-gradient-to-tr from-sky-500/30 via-indigo-500/20 to-transparent blur-2xl" />
-            <div className="relative overflow-hidden rounded-[2rem] border border-zinc-200 shadow-xl dark:border-zinc-800">
-              <Image
-                src={profile.photo}
-                alt={`${photoAlt} ${profile.name}`}
-                width={360}
-                height={480}
-                priority
-                sizes="(max-width: 1024px) 288px, 360px"
-                className="h-auto w-72 object-cover sm:w-80 lg:w-90"
-              />
+            <div className="photo-frame relative rounded-[2.1rem] p-[3px]">
+              <div className="overflow-hidden rounded-[2rem] border border-zinc-200 bg-white shadow-xl dark:border-zinc-800 dark:bg-zinc-950">
+                <Image
+                  src={profile.photo}
+                  alt={`${photoAlt} ${profile.name}`}
+                  width={360}
+                  height={480}
+                  priority
+                  sizes="(max-width: 1024px) 288px, 360px"
+                  className="h-auto w-72 object-cover sm:w-80 lg:w-90"
+                />
+              </div>
             </div>
           </div>
-        </Reveal>
+        </div>
       </div>
     </section>
   );

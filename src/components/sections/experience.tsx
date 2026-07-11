@@ -16,7 +16,11 @@ export function Experience({ dict }: ExperienceProps) {
           const item = dict.items[key];
           return (
             <li key={key} className="relative">
-              <span className="absolute top-1.5 -left-[2.42rem] h-3 w-3 rounded-full border-2 border-white bg-sky-500 ring-4 ring-sky-500/20 dark:border-zinc-950" />
+              <span
+                className={`absolute top-1.5 -left-[2.42rem] h-3 w-3 rounded-full border-2 border-white bg-sky-500 ring-4 ring-sky-500/20 dark:border-zinc-950 ${
+                  index === 0 ? "animate-live" : ""
+                }`}
+              />
               <Reveal delay={index * 100}>
                 <p className="font-mono text-sm text-zinc-500 dark:text-zinc-400">{item.period}</p>
                 <h3 className="font-display mt-1 text-xl font-semibold text-zinc-900 dark:text-white">

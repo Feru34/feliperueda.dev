@@ -18,7 +18,7 @@ export function Skills({ dict }: SkillsProps) {
             delay={index * 75}
             className={index === 0 ? "sm:col-span-2" : ""}
           >
-            <div className="h-full rounded-2xl border border-zinc-200 bg-zinc-50/50 p-6 transition-colors hover:border-sky-300/70 dark:border-zinc-800 dark:bg-zinc-900/40 dark:hover:border-sky-700/70">
+            <div className="card-shine h-full rounded-2xl border border-zinc-200 bg-zinc-50/50 p-6 transition-colors hover:border-sky-300/70 dark:border-zinc-800 dark:bg-zinc-900/40 dark:hover:border-sky-700/70">
               <h3 className="font-display text-base font-semibold text-zinc-900 dark:text-white">
                 {dict.groups[key]}
               </h3>

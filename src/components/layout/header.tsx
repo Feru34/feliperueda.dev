@@ -28,6 +28,11 @@ export function Header({ locale, nav, a11y }: HeaderProps) {
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-zinc-200/60 bg-white/80 backdrop-blur-md dark:border-zinc-800/60 dark:bg-zinc-950/80">
+      {/* Reading progress — CSS scroll-driven animation, no JS */}
+      <span
+        aria-hidden
+        className="scroll-progress absolute inset-x-0 bottom-[-1px] block h-[2px] bg-gradient-to-r from-sky-500 to-indigo-500"
+      />
       <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-6">
         <Link
           href={`/${locale}`}
@@ -42,7 +47,7 @@ export function Header({ locale, nav, a11y }: HeaderProps) {
             <a
               key={key}
               href={href}
-              className="text-sm text-zinc-600 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+              className="nav-link text-sm text-zinc-600 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
             >
               {nav[key]}
             </a>
