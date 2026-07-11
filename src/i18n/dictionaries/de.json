@@ -25,6 +25,8 @@
     "badge": "Offen für Remote-Arbeit",
     "greeting": "Hallo, ich bin",
     "role": "Cloud- & Backend-Softwareentwickler",
+    "rotatingWords": ["Ich entwerfe", "Ich migriere", "Ich sichere", "Ich skaliere"],
+    "rotatingSuffix": "Cloud-Architekturen",
     "summary": "Ich entwerfe, migriere und sichere skalierbare Architekturen auf AWS. Mein Schwerpunkt liegt auf Backend-Entwicklung, komplexen Datenbankmigrationen, resilienten Microservices und der Integration von KI-Lösungen — wie RAG — zur Automatisierung komplexer Datenanalysen.",
     "location": "Bogotá, Kolumbien",
     "ctaContact": "Kontakt aufnehmen",

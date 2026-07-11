@@ -11,13 +11,23 @@ type ExperienceProps = {
 export function Experience({ dict }: ExperienceProps) {
   return (
     <Section id="experience" title={dict.title} subtitle={dict.subtitle}>
-      <ol className="relative space-y-12 border-l border-zinc-200 pl-8 dark:border-zinc-800">
+      <div className="relative">
+        {/* Base track + scroll-driven progress line drawn over it */}
+        <span
+          aria-hidden
+          className="absolute top-0 left-0 h-full w-px bg-zinc-200 dark:bg-zinc-800"
+        />
+        <span
+          aria-hidden
+          className="timeline-progress absolute top-0 left-0 h-full w-[2px] bg-gradient-to-b from-sky-500 to-indigo-500"
+        />
+        <ol className="relative space-y-12 pl-8">
         {experience.map(({ key, tech }, index) => {
           const item = dict.items[key];
           return (
             <li key={key} className="relative">
               <span
-                className={`absolute top-1.5 -left-[2.42rem] h-3 w-3 rounded-full border-2 border-white bg-sky-500 ring-4 ring-sky-500/20 dark:border-zinc-950 ${
+                className={`timeline-dot absolute top-1.5 -left-[2.42rem] h-3 w-3 rounded-full border-2 border-white bg-sky-500 ring-4 ring-sky-500/20 dark:border-zinc-950 ${
                   index === 0 ? "animate-live" : ""
                 }`}
               />
@@ -46,7 +56,8 @@ export function Experience({ dict }: ExperienceProps) {
             </li>
           );
         })}
-      </ol>
+        </ol>
+      </div>
     </Section>
   );
 }

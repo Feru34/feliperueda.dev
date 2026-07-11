@@ -69,6 +69,7 @@ body {
 .hero-stagger > :nth-child(4) { animation-delay: 0.32s; }
 .hero-stagger > :nth-child(5) { animation-delay: 0.41s; }
 .hero-stagger > :nth-child(6) { animation-delay: 0.5s; }
+.hero-stagger > :nth-child(7) { animation-delay: 0.59s; }
 
 .hero-photo-enter {
   animation: rise-in 0.9s 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
@@ -245,6 +246,116 @@ body {
   }
 }
 
+/* Rotating verb in the hero: a clipped 1-line window over a vertical track.
+   The track holds N words plus a repeat of the first for a seamless loop. */
+.word-rotator {
+  display: inline-block;
+  height: 1.3em;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+
+.word-rotator > span {
+  display: flex;
+  flex-direction: column;
+  animation: word-cycle 9s cubic-bezier(0.77, 0, 0.18, 1) infinite;
+}
+
+.word-rotator > span > span {
+  display: block;
+  height: 1.3em;
+  line-height: 1.3;
+}
+
+@keyframes word-cycle {
+  0%,
+  21% {
+    transform: translateY(0);
+  }
+  25%,
+  46% {
+    transform: translateY(-20%);
+  }
+  50%,
+  71% {
+    transform: translateY(-40%);
+  }
+  75%,
+  96% {
+    transform: translateY(-60%);
+  }
+  100% {
+    transform: translateY(-80%);
+  }
+}
+
+/* Experience timeline that draws itself while scrolling (scroll-driven) */
+.timeline-progress {
+  transform: scaleY(0);
+  transform-origin: top;
+}
+
+@supports (animation-timeline: view()) {
+  .timeline-progress {
+    animation: timeline-draw linear both;
+    animation-timeline: view();
+    animation-range: entry 10% cover 65%;
+  }
+
+  .timeline-dot {
+    animation: dot-activate linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 80%;
+  }
+}
+
+@keyframes timeline-draw {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes dot-activate {
+  from {
+    background-color: var(--color-zinc-300);
+    scale: 0.6;
+  }
+  to {
+    background-color: var(--color-sky-500);
+    scale: 1;
+  }
+}
+
+/* Terminal-cursor blink for the logo dot */
+.terminal-dot {
+  animation: caret-blink 1.4s steps(2, jump-none) infinite;
+}
+
+/* Scroll-spy: persist the nav underline on the active section */
+.nav-link-active {
+  color: var(--color-zinc-900);
+}
+
+.dark .nav-link-active {
+  color: #fff;
+}
+
+.nav-link-active::after {
+  transform: scaleX(1);
+}
+
+/* Theme switch: circular reveal via the View Transitions API.
+   The clip-path circle is animated from theme-toggle.tsx; here we just
+   disable the default crossfade so the wipe is the only effect. */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
 /* Reading progress bar — CSS scroll-driven animation, zero JS */
 .scroll-progress {
   transform: scaleX(0);
@@ -302,8 +413,15 @@ body {
   .terminal-caret::after,
   .card-shine::after,
   .animate-live,
-  .scroll-progress {
+  .scroll-progress,
+  .word-rotator > span,
+  .timeline-progress,
+  .timeline-dot,
+  .terminal-dot {
     animation: none !important;
+  }
+  .timeline-progress {
+    transform: scaleY(1);
   }
   .hero-stagger > *,
   .hero-photo-enter {

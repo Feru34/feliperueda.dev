@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import type { Locale } from "@/i18n/config";
 import { LocaleSwitcher } from "@/components/ui/locale-switcher";
@@ -25,6 +25,26 @@ const NAV_ANCHORS: { key: string; href: string }[] = [
 
 export function Header({ locale, nav, a11y }: HeaderProps) {
   const [open, setOpen] = useState(false);
+  const [active, setActive] = useState<string | null>(null);
+
+  // Scroll-spy: the section crossing the middle of the viewport wins
+  useEffect(() => {
+    const sections = NAV_ANCHORS.map(({ href }) =>
+      document.querySelector<HTMLElement>(href)
+    ).filter((section): section is HTMLElement => section !== null);
+    if (sections.length === 0) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) setActive(`#${entry.target.id}`);
+        }
+      },
+      { rootMargin: "-45% 0px -50% 0px" }
+    );
+    sections.forEach((section) => observer.observe(section));
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-zinc-200/60 bg-white/80 backdrop-blur-md dark:border-zinc-800/60 dark:bg-zinc-950/80">
@@ -39,7 +59,7 @@ export function Header({ locale, nav, a11y }: HeaderProps) {
           className="font-display text-lg font-semibold tracking-tight text-zinc-900 dark:text-white"
           onClick={() => setOpen(false)}
         >
-          felipe<span className="text-sky-500">.</span>rueda
+          felipe<span className="terminal-dot text-sky-500">.</span>rueda
         </Link>
 
         <nav className="hidden items-center gap-6 lg:flex">
@@ -47,7 +67,9 @@ export function Header({ locale, nav, a11y }: HeaderProps) {
             <a
               key={key}
               href={href}
-              className="nav-link text-sm text-zinc-600 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+              className={`nav-link text-sm text-zinc-600 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white ${
+                active === href ? "nav-link-active" : ""
+              }`}
             >
               {nav[key]}
             </a>
@@ -77,7 +99,11 @@ export function Header({ locale, nav, a11y }: HeaderProps) {
                 <a
                   href={href}
                   onClick={() => setOpen(false)}
-                  className="block rounded-lg px-3 py-2 text-sm text-zinc-700 transition-colors hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-white"
+                  className={`block rounded-lg px-3 py-2 text-sm transition-colors hover:bg-zinc-100 hover:text-zinc-900 dark:hover:bg-zinc-800 dark:hover:text-white ${
+                    active === href
+                      ? "font-medium text-sky-600 dark:text-sky-400"
+                      : "text-zinc-700 dark:text-zinc-300"
+                  }`}
                 >
                   {nav[key]}
                 </a>

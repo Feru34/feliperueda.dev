@@ -25,6 +25,8 @@
     "badge": "Open to remote work",
     "greeting": "Hi, I'm",
     "role": "Cloud & Backend Software Engineer",
+    "rotatingWords": ["I design", "I migrate", "I secure", "I scale"],
+    "rotatingSuffix": "cloud architectures",
     "summary": "I design, migrate and secure scalable architectures on AWS. I specialize in backend development, complex database migrations, resilient microservices and integrating AI-driven solutions — such as RAG — to automate complex data analysis.",
     "location": "Bogotá, Colombia",
     "ctaContact": "Get in touch",

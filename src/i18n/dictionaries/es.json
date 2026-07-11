@@ -25,6 +25,8 @@
     "badge": "Disponible para trabajo remoto",
     "greeting": "Hola, soy",
     "role": "Ingeniero de Software Cloud & Backend",
+    "rotatingWords": ["Diseño", "Migro", "Aseguro", "Escalo"],
+    "rotatingSuffix": "arquitecturas cloud",
     "summary": "Diseño, migro y aseguro arquitecturas escalables en AWS. Me especializo en desarrollo backend, migraciones complejas de bases de datos, microservicios resilientes e integración de soluciones de IA —como RAG— para automatizar el análisis de datos complejos.",
     "location": "Bogotá, Colombia",
     "ctaContact": "Contáctame",

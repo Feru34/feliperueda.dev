@@ -25,6 +25,8 @@
     "badge": "Ouvert au travail à distance",
     "greeting": "Bonjour, je suis",
     "role": "Ingénieur Logiciel Cloud & Backend",
+    "rotatingWords": ["Je conçois", "Je migre", "Je sécurise", "Je fais évoluer"],
+    "rotatingSuffix": "des architectures cloud",
     "summary": "Je conçois, migre et sécurise des architectures évolutives sur AWS. Je me spécialise dans le développement backend, les migrations complexes de bases de données, les microservices résilients et l'intégration de solutions d'IA — comme le RAG — pour automatiser l'analyse de données complexes.",
     "location": "Bogotá, Colombie",
     "ctaContact": "Me contacter",

@@ -46,6 +46,20 @@ export function Hero({ dict, photoAlt }: HeroProps) {
             {dict.role}
           </p>
 
+          <p className="font-display mt-4 text-lg font-semibold text-zinc-800 sm:text-xl dark:text-zinc-200">
+            <span className="word-rotator text-sky-600 dark:text-sky-400" aria-hidden>
+              <span>
+                {[...dict.rotatingWords, dict.rotatingWords[0]].map((word, i) => (
+                  <span key={`${word}-${i}`}>{word}</span>
+                ))}
+              </span>
+            </span>{" "}
+            {dict.rotatingSuffix}
+            <span className="sr-only">
+              {dict.rotatingWords[0]} {dict.rotatingSuffix}
+            </span>
+          </p>
+
           <p className="mt-5 max-w-xl text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
             {dict.summary}
           </p>
