@@ -4,6 +4,7 @@ import { Inter, Space_Grotesk } from "next/font/google";
 import { locales, isLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { profile } from "@/content/profile";
+import { SITE_URL } from "@/lib/site";
 import { Providers } from "@/components/providers";
 import "../globals.css";
 
@@ -31,17 +32,19 @@ export async function generateMetadata({ params }: LayoutParams): Promise<Metada
   const dict = await getDictionary(locale);
 
   return {
-    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
+    metadataBase: new URL(SITE_URL),
     title: dict.meta.title,
     description: dict.meta.description,
     authors: [{ name: profile.name }],
     alternates: {
+      canonical: `/${locale}`,
       languages: Object.fromEntries(locales.map((l) => [l, `/${l}`])),
     },
     openGraph: {
       title: dict.meta.title,
       description: dict.meta.description,
       type: "website",
+      url: `/${locale}`,
       locale,
       images: [profile.photo],
     },

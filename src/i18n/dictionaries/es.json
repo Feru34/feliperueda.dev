@@ -35,7 +35,8 @@
     "title": "Sobre mí",
     "paragraphs": [
       "Soy ingeniero de sistemas y computación de la Universidad de los Andes, con experiencia construyendo soluciones cloud de punta a punta en entornos de startup y corporativos de ritmo acelerado.",
-      "Me mueve el diseño de sistemas: desde arquitectar plataformas de información desde cero en AWS hasta liderar migraciones críticas de bases de datos sin tiempo de inactividad. Disfruto llevar la IA a problemas reales, como automatizar el análisis de documentos financieros con RAG."
+      "Me mueve el diseño de sistemas: desde arquitectar plataformas de información desde cero en AWS hasta liderar migraciones críticas de bases de datos sin tiempo de inactividad. Disfruto llevar la IA a problemas reales, como automatizar el análisis de documentos financieros con RAG.",
+      "Fuera del teclado me encontrarás descubriendo cafés nuevos, entrenando en el gimnasio o aprendiendo idiomas. Me encantan los musicales —he tomado clases de teatro— y, siendo honesto, la tecnología es tanto mi carrera como mi hobby: siempre estoy explorando lo último."
     ],
     "languagesTitle": "Idiomas",
     "languageNames": { "es": "Español", "en": "Inglés", "fr": "Francés", "de": "Alemán" },
@@ -66,6 +67,16 @@
           "Arquitecté y desplegué desde cero un sistema de información de riesgos en AWS (EC2, S3, Lambda, ECS, Route 53), migrando a la nube la base de datos legada, servicios Java Spring Boot y el frontend en Angular.",
           "Construí y programé pipelines ETL en Python para cargar datos financieros críticos garantizando su integridad, aplicando buenas prácticas de seguridad de AWS: roles IAM de mínimo privilegio, cifrado KMS y alertas de CloudWatch.",
           "Diseñé y desarrollé una aplicación RAG con Python Flask y la API de OpenAI para extraer, analizar y automatizar la comparación de políticas contables complejas entre múltiples estados financieros en PDF."
+        ]
+      },
+      "uniandesTA": {
+        "role": "Monitor Académico",
+        "company": "Universidad de los Andes",
+        "location": "Bogotá",
+        "period": "Durante el pregrado",
+        "highlights": [
+          "Monitor de Backend con Python: acompañé a estudiantes en el diseño y construcción de APIs REST con Flask y MySQL, apoyando talleres prácticos y resolviendo dudas de diseño.",
+          "Monitor de Introducción a la Programación: guié a estudiantes de primeros semestres en los fundamentos de programación y el análisis de datos con Pandas y Matplotlib."
         ]
       }
     }
@@ -110,12 +121,8 @@
     "period": "2020 — 2025",
     "items": [
       {
-        "title": "Monitor académico",
-        "description": "Guié a estudiantes en Backend con Python (Flask, MySQL, REST APIs) e Introducción a la Programación (Pandas, Matplotlib)."
-      },
-      {
         "title": "Representante estudiantil",
-        "description": "Representé a más de 1.000 estudiantes e impulsé un cambio cultural en el departamento: lideré la Semana DISC con un equipo de 20 voluntarios, articulé la comunicación entre estudiantes y dirección académica con retroalimentación basada en datos, y gestioné de punta a punta la mercancía oficial del departamento para financiar nuevas oportunidades estudiantiles."
+        "description": "Representé a más de 1.000 estudiantes e impulsé un cambio cultural en el departamento: lideré la Semana DISC con un equipo de 20 voluntarios y co-creé iniciativas de comunidad como la Copa Turing y el pódcast «Un café Java con...». Articulé la comunicación entre estudiantes y dirección académica con retroalimentación basada en datos, y gestioné de punta a punta la mercancía oficial del departamento para financiar nuevas oportunidades estudiantiles."
       },
       {
         "title": "IEEEXtreme 17.0",

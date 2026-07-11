@@ -35,7 +35,8 @@
     "title": "About me",
     "paragraphs": [
       "I'm a Systems & Computer Engineering graduate from Universidad de los Andes, with experience building end-to-end cloud solutions in fast-paced startup and corporate environments.",
-      "Systems design is what drives me: from architecting information platforms from scratch on AWS to leading critical database migrations with zero downtime. I enjoy bringing AI to real problems, like automating the analysis of financial documents with RAG."
+      "Systems design is what drives me: from architecting information platforms from scratch on AWS to leading critical database migrations with zero downtime. I enjoy bringing AI to real problems, like automating the analysis of financial documents with RAG.",
+      "Away from the keyboard you'll find me discovering new cafés, training at the gym or learning languages. I love musicals — I've taken theater classes — and, honestly, technology is both my career and my hobby: I'm always exploring what's next."
     ],
     "languagesTitle": "Languages",
     "languageNames": { "es": "Spanish", "en": "English", "fr": "French", "de": "German" },
@@ -66,6 +67,16 @@
           "Architected and deployed an end-to-end risk information system from scratch on AWS (EC2, S3, Lambda, ECS, Route 53), migrating a legacy database, Java Spring Boot services and an Angular frontend to the cloud.",
           "Built and scheduled Python-based ETL pipelines loading critical financial data while ensuring data integrity, following AWS security best practices: IAM least-privilege roles, KMS encryption and CloudWatch alerts.",
           "Designed and developed a Retrieval-Augmented Generation (RAG) application using Python Flask and the OpenAI API to extract, analyze and automate the comparison of complex accounting policies across multiple financial statement PDFs."
+        ]
+      },
+      "uniandesTA": {
+        "role": "Teaching Assistant",
+        "company": "Universidad de los Andes",
+        "location": "Bogotá",
+        "period": "During my B.Sc.",
+        "highlights": [
+          "Backend with Python TA: mentored students designing and building REST APIs with Flask and MySQL, supporting hands-on labs and design questions.",
+          "Introduction to Programming TA: guided first-year students through programming fundamentals and data analysis with Pandas and Matplotlib."
         ]
       }
     }
@@ -110,12 +121,8 @@
     "period": "2020 — 2025",
     "items": [
       {
-        "title": "Teaching Assistant",
-        "description": "Guided students in Backend with Python (Flask, MySQL, REST APIs) and Introduction to Programming (Pandas, Matplotlib)."
-      },
-      {
         "title": "Student Representative",
-        "description": "Represented a constituency of 1,000+ students and drove a cultural shift within the department: led DISC Week with a 20-volunteer team, bridged students and academic leadership with data-driven feedback, and managed the department's official merchandise end to end to fund new student opportunities."
+        "description": "Represented a constituency of 1,000+ students and drove a cultural shift within the department: led DISC Week with a 20-volunteer team and co-created community initiatives like the Copa Turing tournament and the \"Un café Java con...\" podcast. Bridged students and academic leadership with data-driven feedback, and managed the department's official merchandise end to end to fund new student opportunities."
       },
       {
         "title": "IEEEXtreme 17.0",

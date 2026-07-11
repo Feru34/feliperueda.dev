@@ -35,7 +35,8 @@
     "title": "À propos de moi",
     "paragraphs": [
       "Je suis diplômé en génie des systèmes et informatique de l'Universidad de los Andes, avec une expérience dans la construction de solutions cloud de bout en bout, aussi bien en startup qu'en environnement corporate.",
-      "La conception de systèmes est ce qui me motive : de l'architecture de plateformes d'information sur AWS à partir de zéro jusqu'aux migrations critiques de bases de données sans interruption de service. J'aime appliquer l'IA à des problèmes concrets, comme l'automatisation de l'analyse de documents financiers avec le RAG."
+      "La conception de systèmes est ce qui me motive : de l'architecture de plateformes d'information sur AWS à partir de zéro jusqu'aux migrations critiques de bases de données sans interruption de service. J'aime appliquer l'IA à des problèmes concrets, comme l'automatisation de l'analyse de documents financiers avec le RAG.",
+      "Loin du clavier, vous me trouverez en train de découvrir de nouveaux cafés, de m'entraîner à la salle de sport ou d'apprendre des langues. J'adore les comédies musicales — j'ai pris des cours de théâtre — et, pour être honnête, la technologie est à la fois mon métier et ma passion : je suis toujours à l'affût des nouveautés."
     ],
     "languagesTitle": "Langues",
     "languageNames": { "es": "Espagnol", "en": "Anglais", "fr": "Français", "de": "Allemand" },
@@ -66,6 +67,16 @@
           "Architecturé et déployé de zéro un système d'information des risques sur AWS (EC2, S3, Lambda, ECS, Route 53), en migrant vers le cloud une base de données legacy, des services Java Spring Boot et un frontend Angular.",
           "Construit et planifié des pipelines ETL en Python chargeant des données financières critiques en garantissant leur intégrité, selon les bonnes pratiques de sécurité AWS : rôles IAM à moindre privilège, chiffrement KMS et alertes CloudWatch.",
           "Conçu et développé une application de Retrieval-Augmented Generation (RAG) avec Python Flask et l'API OpenAI pour extraire, analyser et automatiser la comparaison de politiques comptables complexes entre plusieurs états financiers en PDF."
+        ]
+      },
+      "uniandesTA": {
+        "role": "Assistant d'enseignement",
+        "company": "Universidad de los Andes",
+        "location": "Bogotá",
+        "period": "Pendant la licence",
+        "highlights": [
+          "Cours Backend avec Python : accompagné les étudiants dans la conception et la construction d'APIs REST avec Flask et MySQL, en appui des travaux pratiques et des questions de conception.",
+          "Cours Introduction à la Programmation : guidé les étudiants de première année dans les fondamentaux de la programmation et l'analyse de données avec Pandas et Matplotlib."
         ]
       }
     }
@@ -110,12 +121,8 @@
     "period": "2020 — 2025",
     "items": [
       {
-        "title": "Assistant d'enseignement",
-        "description": "Accompagné des étudiants en Backend avec Python (Flask, MySQL, REST APIs) et en Introduction à la Programmation (Pandas, Matplotlib)."
-      },
-      {
         "title": "Représentant étudiant",
-        "description": "Représenté plus de 1 000 étudiants et impulsé un changement culturel au sein du département : dirigé la Semaine DISC avec une équipe de 20 bénévoles, fait le lien entre étudiants et direction académique grâce à des retours fondés sur les données, et géré de bout en bout le merchandising officiel du département pour financer de nouvelles opportunités étudiantes."
+        "description": "Représenté plus de 1 000 étudiants et impulsé un changement culturel au sein du département : dirigé la Semaine DISC avec une équipe de 20 bénévoles et co-créé des initiatives communautaires comme le tournoi Copa Turing et le podcast « Un café Java con... ». Fait le lien entre étudiants et direction académique grâce à des retours fondés sur les données, et géré de bout en bout le merchandising officiel du département pour financer de nouvelles opportunités étudiantes."
       },
       {
         "title": "IEEEXtreme 17.0",

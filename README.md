@@ -58,4 +58,4 @@ La galería la detecta sola en el siguiente build. Opcionalmente:
 
 ## Despliegue
 
-Compatible con Vercel sin configuración extra. Define `NEXT_PUBLIC_SITE_URL=https://tudominio.com` para que las URLs de Open Graph sean absolutas.
+Compatible con Vercel sin configuración extra. El dominio canónico es **https://feliperueda.dev** (definido en `src/lib/site.ts`, usado por Open Graph, `sitemap.xml` y `robots.txt`); `NEXT_PUBLIC_SITE_URL` lo sobreescribe en previews.

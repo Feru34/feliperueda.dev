@@ -35,7 +35,8 @@
     "title": "Über mich",
     "paragraphs": [
       "Ich bin Absolvent der System- und Computertechnik an der Universidad de los Andes und habe Erfahrung im Aufbau von End-to-End-Cloud-Lösungen in schnelllebigen Startup- und Unternehmensumgebungen.",
-      "Systemdesign ist mein Antrieb: vom Aufbau von Informationsplattformen auf AWS von Grund auf bis hin zu kritischen Datenbankmigrationen ohne Ausfallzeiten. Ich bringe KI gern in reale Probleme ein, etwa bei der automatisierten Analyse von Finanzdokumenten mit RAG."
+      "Systemdesign ist mein Antrieb: vom Aufbau von Informationsplattformen auf AWS von Grund auf bis hin zu kritischen Datenbankmigrationen ohne Ausfallzeiten. Ich bringe KI gern in reale Probleme ein, etwa bei der automatisierten Analyse von Finanzdokumenten mit RAG.",
+      "Abseits der Tastatur findet man mich beim Entdecken neuer Cafés, im Fitnessstudio oder beim Sprachenlernen. Ich liebe Musicals — ich habe Schauspielunterricht genommen — und ehrlich gesagt ist Technologie für mich Beruf und Hobby zugleich: Ich bin immer am Puls des Neuesten."
     ],
     "languagesTitle": "Sprachen",
     "languageNames": { "es": "Spanisch", "en": "Englisch", "fr": "Französisch", "de": "Deutsch" },
@@ -66,6 +67,16 @@
           "Entwarf und implementierte von Grund auf ein Risikoinformationssystem auf AWS (EC2, S3, Lambda, ECS, Route 53) und migrierte eine Legacy-Datenbank, Java-Spring-Boot-Services und ein Angular-Frontend in die Cloud.",
           "Baute und plante Python-basierte ETL-Pipelines für kritische Finanzdaten mit gesicherter Datenintegrität — nach AWS-Sicherheits-Best-Practices: IAM-Rollen nach dem Least-Privilege-Prinzip, KMS-Verschlüsselung und CloudWatch-Alarme.",
           "Konzipierte und entwickelte eine Retrieval-Augmented-Generation-Anwendung (RAG) mit Python Flask und der OpenAI-API, um komplexe Bilanzierungsrichtlinien aus mehreren Finanzbericht-PDFs zu extrahieren, zu analysieren und automatisiert zu vergleichen."
+        ]
+      },
+      "uniandesTA": {
+        "role": "Tutor",
+        "company": "Universidad de los Andes",
+        "location": "Bogotá",
+        "period": "Während des Studiums",
+        "highlights": [
+          "Tutor für Backend mit Python: begleitete Studierende beim Entwurf und Aufbau von REST-APIs mit Flask und MySQL und unterstützte Praxisübungen und Designfragen.",
+          "Tutor für Einführung in die Programmierung: führte Erstsemester durch Programmiergrundlagen und Datenanalyse mit Pandas und Matplotlib."
         ]
       }
     }
@@ -110,12 +121,8 @@
     "period": "2020 — 2025",
     "items": [
       {
-        "title": "Tutor",
-        "description": "Betreute Studierende in Backend mit Python (Flask, MySQL, REST APIs) und Einführung in die Programmierung (Pandas, Matplotlib)."
-      },
-      {
         "title": "Studierendenvertreter",
-        "description": "Vertrat über 1.000 Studierende und trieb einen Kulturwandel im Fachbereich voran: leitete die DISC-Woche mit einem Team von 20 Freiwilligen, verband Studierende und Fakultätsleitung durch datenbasiertes Feedback und verantwortete das offizielle Merchandising des Fachbereichs von A bis Z, um neue Angebote für Studierende zu finanzieren."
+        "description": "Vertrat über 1.000 Studierende und trieb einen Kulturwandel im Fachbereich voran: leitete die DISC-Woche mit einem Team von 20 Freiwilligen und initiierte Community-Formate wie das Turnier Copa Turing und den Podcast „Un café Java con...“. Verband Studierende und Fakultätsleitung durch datenbasiertes Feedback und verantwortete das offizielle Merchandising des Fachbereichs von A bis Z, um neue Angebote für Studierende zu finanzieren."
       },
       {
         "title": "IEEEXtreme 17.0",

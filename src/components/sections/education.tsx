@@ -29,7 +29,7 @@ export function Education({ dict }: EducationProps) {
             <p className="font-mono text-sm text-zinc-500 dark:text-zinc-400">{dict.period}</p>
           </div>
 
-          <div className="mt-8 grid gap-5 md:grid-cols-3">
+          <div className="mt-8 grid gap-5 md:grid-cols-2">
             {dict.items.map((item, index) => (
               <Reveal key={item.title} delay={index * 100} className="h-full">
                 <div className="h-full rounded-xl border border-zinc-200 bg-white p-5 dark:border-zinc-800 dark:bg-zinc-950">

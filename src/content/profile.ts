@@ -56,7 +56,7 @@ export const skillGroups: { key: SkillGroupKey; items: string[] }[] = [
   },
 ];
 
-export type ExperienceKey = "finidian" | "managementSolutions";
+export type ExperienceKey = "finidian" | "managementSolutions" | "uniandesTA";
 
 export const experience: { key: ExperienceKey; company: string; tech: string[] }[] = [
   {
@@ -68,6 +68,11 @@ export const experience: { key: ExperienceKey; company: string; tech: string[] }
     key: "managementSolutions",
     company: "Management Solutions",
     tech: ["AWS", "Java Spring Boot", "Angular", "Python", "Flask", "OpenAI API", "ETL"],
+  },
+  {
+    key: "uniandesTA",
+    company: "Universidad de los Andes",
+    tech: ["Python", "Flask", "MySQL", "REST APIs", "Pandas", "Matplotlib"],
   },
 ];
 
