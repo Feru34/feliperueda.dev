@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "Felipe Rueda Rivera — Cloud- & Backend-Softwareentwickler",
+    "description": "Cloud-nativer Softwareentwickler mit Fokus auf Entwurf, Migration und Absicherung skalierbarer Architekturen auf AWS. Backend, Microservices und KI-Lösungen (RAG)."
+  },
+  "nav": {
+    "about": "Über mich",
+    "experience": "Erfahrung",
+    "skills": "Kenntnisse",
+    "projects": "Projekte",
+    "education": "Ausbildung",
+    "gallery": "Momente",
+    "contact": "Kontakt"
+  },
+  "a11y": {
+    "toggleTheme": "Design wechseln",
+    "lightTheme": "Helles Design",
+    "darkTheme": "Dunkles Design",
+    "switchLanguage": "Sprache wechseln",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "photoOf": "Foto von"
+  },
+  "hero": {
+    "badge": "Offen für Remote-Arbeit",
+    "greeting": "Hallo, ich bin",
+    "role": "Cloud- & Backend-Softwareentwickler",
+    "summary": "Ich entwerfe, migriere und sichere skalierbare Architekturen auf AWS. Mein Schwerpunkt liegt auf Backend-Entwicklung, komplexen Datenbankmigrationen, resilienten Microservices und der Integration von KI-Lösungen — wie RAG — zur Automatisierung komplexer Datenanalysen.",
+    "location": "Bogotá, Kolumbien",
+    "ctaContact": "Kontakt aufnehmen",
+    "ctaCv": "Lebenslauf herunterladen",
+    "ctaProjects": "Projekte ansehen"
+  },
+  "about": {
+    "title": "Über mich",
+    "paragraphs": [
+      "Ich bin Absolvent der System- und Computertechnik an der Universidad de los Andes und habe Erfahrung im Aufbau von End-to-End-Cloud-Lösungen in schnelllebigen Startup- und Unternehmensumgebungen.",
+      "Systemdesign ist mein Antrieb: vom Aufbau von Informationsplattformen auf AWS von Grund auf bis hin zu kritischen Datenbankmigrationen ohne Ausfallzeiten. Ich bringe KI gern in reale Probleme ein, etwa bei der automatisierten Analyse von Finanzdokumenten mit RAG."
+    ],
+    "languagesTitle": "Sprachen",
+    "languageNames": { "es": "Spanisch", "en": "Englisch", "fr": "Französisch", "de": "Deutsch" },
+    "levels": { "native": "Muttersprache", "b2": "B2", "b1": "B1" }
+  },
+  "experience": {
+    "title": "Erfahrung",
+    "subtitle": "Beruflicher Werdegang",
+    "present": "Heute",
+    "items": {
+      "finidian": {
+        "role": "Softwareentwickler",
+        "company": "Finidian",
+        "location": "Bogotá (remote)",
+        "period": "Jan. 2026 — Heute",
+        "highlights": [
+          "Leitete eine kritische Datenbankmigration von MongoDB zu PostgreSQL — mit gesicherter Datenintegrität, minimaler Ausfallzeit und optimierter Abfrageleistung für skalierbare Backend-Prozesse.",
+          "Entwerfe und betreibe skalierbare Cloud-Infrastruktur auf AWS für hochverfügbare Microservices und schnelle Produktiterationen.",
+          "Arbeite in einem agilen Remote-Team an schlankeren Deployment-Prozessen und einer besseren Gesamtarchitektur."
+        ]
+      },
+      "managementSolutions": {
+        "role": "Assistant Consultant",
+        "company": "Management Solutions (FinTech)",
+        "location": "Bogotá",
+        "period": "Jan. 2025 — Jan. 2026",
+        "highlights": [
+          "Entwarf und implementierte von Grund auf ein Risikoinformationssystem auf AWS (EC2, S3, Lambda, ECS, Route 53) und migrierte eine Legacy-Datenbank, Java-Spring-Boot-Services und ein Angular-Frontend in die Cloud.",
+          "Baute und plante Python-basierte ETL-Pipelines für kritische Finanzdaten mit gesicherter Datenintegrität — nach AWS-Sicherheits-Best-Practices: IAM-Rollen nach dem Least-Privilege-Prinzip, KMS-Verschlüsselung und CloudWatch-Alarme.",
+          "Konzipierte und entwickelte eine Retrieval-Augmented-Generation-Anwendung (RAG) mit Python Flask und der OpenAI-API, um komplexe Bilanzierungsrichtlinien aus mehreren Finanzbericht-PDFs zu extrahieren, zu analysieren und automatisiert zu vergleichen."
+        ]
+      }
+    }
+  },
+  "skills": {
+    "title": "Kenntnisse",
+    "subtitle": "Technologien, mit denen ich arbeite",
+    "groups": {
+      "cloud": "Cloud & DevOps",
+      "ai": "KI & Daten",
+      "databases": "Datenbanken",
+      "programming": "Programmiersprachen",
+      "web": "Web & Architektur"
+    }
+  },
+  "projects": {
+    "title": "Projekte",
+    "subtitle": "Ausgewählte Arbeiten",
+    "items": {
+      "andestrack": {
+        "name": "AndesTrack",
+        "tag": "Abschlussarbeit",
+        "description": "Django-basierte Webplattform, die die Garmin-API mit MySQL verbindet, um den Zusammenhang zwischen Gesundheitsgewohnheiten und Studienleistung zu analysieren. Bereitgestellt auf Linux mit Gunicorn."
+      },
+      "ragAnalyzer": {
+        "name": "RAG-Finanzanalysator",
+        "tag": "Angewandte KI",
+        "description": "Retrieval-Augmented-Generation-Anwendung mit Python Flask und der OpenAI-API, die komplexe Bilanzierungsrichtlinien aus mehreren Finanzbericht-PDFs automatisch extrahiert, analysiert und vergleicht."
+      },
+      "riskPlatform": {
+        "name": "Cloud-Risikoplattform",
+        "tag": "Cloud-Architektur",
+        "description": "End-to-End-Risikoinformationssystem auf AWS: Migration einer Legacy-Datenbank, Java-Spring-Boot-Microservices, Angular-Frontend und Python-ETL-Pipelines mit Sicherheit auf Unternehmensniveau."
+      }
+    }
+  },
+  "education": {
+    "title": "Ausbildung & Engagement",
+    "degree": "B.Sc. System- und Computertechnik",
+    "university": "Universidad de los Andes",
+    "location": "Bogotá",
+    "period": "2020 — 2025",
+    "items": [
+      {
+        "title": "Tutor",
+        "description": "Betreute Studierende in Backend mit Python (Flask, MySQL, REST APIs) und Einführung in die Programmierung (Pandas, Matplotlib)."
+      },
+      {
+        "title": "Studierendenvertreter",
+        "description": "Vertrat über 1.000 Studierende und trieb einen Kulturwandel im Fachbereich voran: leitete die DISC-Woche mit einem Team von 20 Freiwilligen, verband Studierende und Fakultätsleitung durch datenbasiertes Feedback und verantwortete das offizielle Merchandising des Fachbereichs von A bis Z, um neue Angebote für Studierende zu finanzieren."
+      },
+      {
+        "title": "IEEEXtreme 17.0",
+        "description": "Nahm mit dem Team CabrasRecursivas am weltweiten Programmierwettbewerb der IEEE teil (über 17.000 Teilnehmende) — Oktober 2023."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Momente",
+    "subtitle": "Meilensteine und Ereignisse, die meinen Weg geprägt haben",
+    "events": {
+      "codefest-adastra-ai": {
+        "title": "CodeFest Ad Astra — KI",
+        "description": "Veranstaltung zu künstlicher Intelligenz mit der IEEE Computer Society."
+      },
+      "computer-society": {
+        "title": "IEEE Computer Society",
+        "description": "Gemeinschaft und Aktivitäten der Studierendengruppe an der Uniandes."
+      }
+    }
+  },
+  "contact": {
+    "title": "Lass uns reden",
+    "subtitle": "Ein Projekt, eine Gelegenheit oder einfach nur Hallo sagen? Schreib mir — ich melde mich bald zurück.",
+    "emailCta": "E-Mail senden",
+    "or": "oder finde mich auf"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "builtWith": "Erstellt mit Next.js und Tailwind CSS."
+  }
+}

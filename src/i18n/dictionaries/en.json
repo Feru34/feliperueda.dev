@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "Felipe Rueda Rivera — Cloud & Backend Software Engineer",
+    "description": "Cloud-native software engineer focused on designing, migrating and securing scalable architectures on AWS. Backend, microservices and AI-driven solutions (RAG)."
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "education": "Education",
+    "gallery": "Moments",
+    "contact": "Contact"
+  },
+  "a11y": {
+    "toggleTheme": "Toggle theme",
+    "lightTheme": "Light theme",
+    "darkTheme": "Dark theme",
+    "switchLanguage": "Switch language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "photoOf": "Photo of"
+  },
+  "hero": {
+    "badge": "Open to remote work",
+    "greeting": "Hi, I'm",
+    "role": "Cloud & Backend Software Engineer",
+    "summary": "I design, migrate and secure scalable architectures on AWS. I specialize in backend development, complex database migrations, resilient microservices and integrating AI-driven solutions — such as RAG — to automate complex data analysis.",
+    "location": "Bogotá, Colombia",
+    "ctaContact": "Get in touch",
+    "ctaCv": "Download CV",
+    "ctaProjects": "View projects"
+  },
+  "about": {
+    "title": "About me",
+    "paragraphs": [
+      "I'm a Systems & Computer Engineering graduate from Universidad de los Andes, with experience building end-to-end cloud solutions in fast-paced startup and corporate environments.",
+      "Systems design is what drives me: from architecting information platforms from scratch on AWS to leading critical database migrations with zero downtime. I enjoy bringing AI to real problems, like automating the analysis of financial documents with RAG."
+    ],
+    "languagesTitle": "Languages",
+    "languageNames": { "es": "Spanish", "en": "English", "fr": "French", "de": "German" },
+    "levels": { "native": "Native", "b2": "B2", "b1": "B1" }
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "Professional journey",
+    "present": "Present",
+    "items": {
+      "finidian": {
+        "role": "Software Engineer",
+        "company": "Finidian",
+        "location": "Bogotá (remote)",
+        "period": "Jan 2026 — Present",
+        "highlights": [
+          "Spearheaded a critical database migration from MongoDB to PostgreSQL, ensuring data integrity, minimizing downtime and optimizing query performance for scalable backend operations.",
+          "Design and maintain scalable cloud infrastructure on AWS, supporting high-availability microservices for fast-paced product iterations.",
+          "Collaborate in an Agile remote environment to streamline deployment processes and enhance overall system architecture."
+        ]
+      },
+      "managementSolutions": {
+        "role": "Assistant Consultant",
+        "company": "Management Solutions (FinTech)",
+        "location": "Bogotá",
+        "period": "Jan 2025 — Jan 2026",
+        "highlights": [
+          "Architected and deployed an end-to-end risk information system from scratch on AWS (EC2, S3, Lambda, ECS, Route 53), migrating a legacy database, Java Spring Boot services and an Angular frontend to the cloud.",
+          "Built and scheduled Python-based ETL pipelines loading critical financial data while ensuring data integrity, following AWS security best practices: IAM least-privilege roles, KMS encryption and CloudWatch alerts.",
+          "Designed and developed a Retrieval-Augmented Generation (RAG) application using Python Flask and the OpenAI API to extract, analyze and automate the comparison of complex accounting policies across multiple financial statement PDFs."
+        ]
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technologies I build with",
+    "groups": {
+      "cloud": "Cloud & DevOps",
+      "ai": "AI & Data",
+      "databases": "Databases",
+      "programming": "Languages",
+      "web": "Web & Architecture"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Selected work",
+    "items": {
+      "andestrack": {
+        "name": "AndesTrack",
+        "tag": "Undergraduate thesis",
+        "description": "Django-based web platform integrating the Garmin API with MySQL to analyze the relationship between health habits and academic performance. Deployed on Linux with Gunicorn."
+      },
+      "ragAnalyzer": {
+        "name": "RAG Financial Analyzer",
+        "tag": "Applied AI",
+        "description": "Retrieval-Augmented Generation application built with Python Flask and the OpenAI API that automatically extracts, analyzes and compares complex accounting policies across multiple financial statement PDFs."
+      },
+      "riskPlatform": {
+        "name": "Cloud Risk Platform",
+        "tag": "Cloud architecture",
+        "description": "End-to-end risk information system on AWS: legacy database migration, Java Spring Boot microservices, Angular frontend and Python ETL pipelines with corporate-grade security."
+      }
+    }
+  },
+  "education": {
+    "title": "Education & Leadership",
+    "degree": "B.Sc. Systems & Computer Engineering",
+    "university": "Universidad de los Andes",
+    "location": "Bogotá",
+    "period": "2020 — 2025",
+    "items": [
+      {
+        "title": "Teaching Assistant",
+        "description": "Guided students in Backend with Python (Flask, MySQL, REST APIs) and Introduction to Programming (Pandas, Matplotlib)."
+      },
+      {
+        "title": "Student Representative",
+        "description": "Represented a constituency of 1,000+ students and drove a cultural shift within the department: led DISC Week with a 20-volunteer team, bridged students and academic leadership with data-driven feedback, and managed the department's official merchandise end to end to fund new student opportunities."
+      },
+      {
+        "title": "IEEEXtreme 17.0",
+        "description": "Competed in IEEE's global programming competition (17,000+ participants) with team CabrasRecursivas — October 2023."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Moments",
+    "subtitle": "Milestones and events that shaped my journey",
+    "events": {
+      "codefest-adastra-ai": {
+        "title": "CodeFest Ad Astra — AI",
+        "description": "Artificial intelligence event with the IEEE Computer Society."
+      },
+      "computer-society": {
+        "title": "IEEE Computer Society",
+        "description": "Student chapter community and activities at Uniandes."
+      }
+    }
+  },
+  "contact": {
+    "title": "Let's talk",
+    "subtitle": "Have a project, an opportunity, or just want to say hi? Drop me a line and I'll get back to you soon.",
+    "emailCta": "Send an email",
+    "or": "or find me on"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Built with Next.js and Tailwind CSS."
+  }
+}
