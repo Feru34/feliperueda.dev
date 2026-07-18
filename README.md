@@ -1,4 +1,4 @@
-# feliperueda.com — Portafolio personal
+# feliperueda.dev — Portafolio personal
 
 Página web personal y portafolio de **Felipe Rueda Rivera** — Cloud & Backend Software Engineer.
 
