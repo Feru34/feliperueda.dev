@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Felipe Rueda Rivera — Cloud & Backend Software Engineer",
+    "title": "Felipe Rueda Rivera — Product Engineer · Cloud & Backend",
     "description": "Cloud-native software engineer focused on designing, migrating and securing scalable architectures on AWS. Backend, microservices and AI-driven solutions (RAG)."
   },
   "nav": {
@@ -25,9 +25,9 @@
     "goToPhoto": "Go to photo"
   },
   "hero": {
-    "badge": "Open to remote work",
+    "badge": "Open to hybrid or remote work",
     "greeting": "Hi, I'm",
-    "role": "Cloud & Backend Software Engineer",
+    "role": "Product Engineer · Cloud & Backend",
     "rotatingWords": ["I design", "I migrate", "I secure", "I scale"],
     "rotatingSuffix": "cloud architectures",
     "summary": "I design, migrate and secure scalable architectures on AWS. I specialize in backend development, complex database migrations, resilient microservices and integrating AI-driven solutions — such as RAG — to automate complex data analysis.",
@@ -53,22 +53,24 @@
     "present": "Present",
     "items": {
       "uniandesRag": {
-        "role": "AI Engineer",
+        "role": "LLM Application Developer",
         "company": "Universidad de los Andes",
-        "location": "Office of the Vice President for Academic Affairs · Bogotá",
+        "location": "Office of the Vice President for Academic Affairs · Bogotá (remote, part-time)",
         "period": "May 2026 — Present",
         "highlights": [
-          "Building a RAG application for Platypus, the university's institutional project platform, to automate the creation and analysis of calls for academic projects.",
-          "Integrating language models into the Vice-Rectory's processes to cut manual work in managing calls, working hand in hand with academic and administrative teams."
+          "Integrating generative AI into the university's institutional systems through Platypus, its project platform, in direct collaboration with the Faculty of Engineering and the Digital Transformation team.",
+          "Designing and deploying Retrieval-Augmented Generation (RAG) architectures that automate the creation and analysis of calls for academic projects.",
+          "Building backend REST APIs with Flask to orchestrate and serve AI models.",
+          "Integrating and evaluating multiple Large Language Models (LLMs) from various providers to optimize performance for specific use cases."
         ]
       },
       "finidian": {
         "role": "Product Engineer",
         "company": "Finidian",
-        "location": "Bogotá (remote)",
+        "location": "Madrid, Spain (remote)",
         "period": "Jan 2026 — Present",
         "highlights": [
-          "Work at the intersection of engineering and product: contributing end to end, from product definition and prioritization to its technical implementation in production.",
+          "Lead the end-to-end development of Finidian's flagship Proptech platform, designed to streamline the mortgage process — from product definition and prioritization to its technical implementation in production.",
           "Spearheaded a critical database migration from MongoDB to PostgreSQL, ensuring data integrity, minimizing downtime and optimizing query performance for scalable backend operations.",
           "Design and maintain scalable cloud infrastructure on AWS, supporting high-availability microservices for fast-paced product iterations.",
           "Collaborate in an Agile remote environment to streamline deployment processes and enhance overall system architecture."
@@ -112,6 +114,12 @@
     "title": "Projects",
     "subtitle": "Selected work",
     "items": {
+      "moirai": {
+        "name": "Moirai",
+        "tag": "Hackathon · 2026",
+        "description": "Digital health twin built in 36 hours at Platanus Hack 26 Bogotá (Simulations track). It reads 9 biomarkers from a blood test, measures biological age with the PhenoAge clock and runs ten thousand paired Monte Carlo trajectories over ten years to recommend which habit buys you the most years per unit of effort.",
+        "linkLabel": "View Moirai"
+      },
       "andestrack": {
         "name": "AndesTrack",
         "tag": "Undergraduate thesis · 2025",
@@ -154,6 +162,23 @@
         "title": "IEEEXtreme 17.0",
         "description": "Competed in IEEE's global programming competition (17,000+ participants) with team CabrasRecursivas — October 2023.",
         "links": []
+      },
+      {
+        "title": "NVIDIA Certification · Anomaly Detection",
+        "description": "Certificate of Competency in “Applications of AI for Anomaly Detection” from NVIDIA, earned at AI WEEK 2026 (October 2026): applied AI techniques to detect anomalous behavior in data, in a workshop hosted by NVIDIA, SoftServe, Universidad de los Andes and Escuela de Ingeniería de Antioquia.",
+        "links": [
+          { "label": "View certificate", "href": "/assets/docs/certificado-nvidia-anomaly-detection.webp" },
+          { "label": "LinkedIn post", "href": "https://www.linkedin.com/feed/update/urn:li:activity:7511535060022452224/" }
+        ]
+      },
+      {
+        "title": "Platanus Hack 26 · Bogotá",
+        "description": "36-hour hackathon with 100+ highly skilled participants (August 2026). In a multidisciplinary team we built Moirai, a digital health twin for the Simulations track, with everyone contributing across development, architecture, design and concept.",
+        "links": [
+          { "label": "View the app", "href": "https://moirai.uo.ar/" },
+          { "label": "Code on GitHub", "href": "https://github.com/platanus-hack/platanus-hack-26-co-team-37" },
+          { "label": "LinkedIn post", "href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503633824212426753/" }
+        ]
       }
     ]
   },
@@ -161,6 +186,11 @@
     "title": "Moments",
     "subtitle": "Milestones and events that shaped my journey",
     "events": {
+      "platanus-hack-26": {
+        "title": "Platanus Hack 26 · Bogotá",
+        "description": "36 hours building Moirai — a digital health twin — with my team, among 100+ hackers in Bogotá.",
+        "linkLabel": "See the LinkedIn post"
+      },
       "representacion-estudiantil": {
         "title": "Student Representation",
         "description": "Moments from the change we drove in the department: recognitions, the official hoodies and a closer community.",

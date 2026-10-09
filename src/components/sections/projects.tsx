@@ -12,7 +12,7 @@ type ProjectsProps = {
 export function Projects({ dict }: ProjectsProps) {
   return (
     <Section id="projects" title={dict.title} subtitle={dict.subtitle}>
-      <div className="grid gap-5 md:grid-cols-3">
+      <div className="grid gap-5 md:grid-cols-2">
         {projects.map(({ key, tech, link }, index) => {
           const item = dict.items[key];
           return (

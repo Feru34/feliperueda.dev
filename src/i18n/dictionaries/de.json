@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Felipe Rueda Rivera — Cloud- & Backend-Softwareentwickler",
+    "title": "Felipe Rueda Rivera — Product Engineer · Cloud & Backend",
     "description": "Cloud-nativer Softwareentwickler mit Fokus auf Entwurf, Migration und Absicherung skalierbarer Architekturen auf AWS. Backend, Microservices und KI-Lösungen (RAG)."
   },
   "nav": {
@@ -25,9 +25,9 @@
     "goToPhoto": "Zum Foto"
   },
   "hero": {
-    "badge": "Offen für Remote-Arbeit",
+    "badge": "Offen für Hybrid- oder Remote-Arbeit",
     "greeting": "Hallo, ich bin",
-    "role": "Cloud- & Backend-Softwareentwickler",
+    "role": "Product Engineer · Cloud & Backend",
     "rotatingWords": ["Ich entwerfe", "Ich migriere", "Ich sichere", "Ich skaliere"],
     "rotatingSuffix": "Cloud-Architekturen",
     "summary": "Ich entwerfe, migriere und sichere skalierbare Architekturen auf AWS. Mein Schwerpunkt liegt auf Backend-Entwicklung, komplexen Datenbankmigrationen, resilienten Microservices und der Integration von KI-Lösungen — wie RAG — zur Automatisierung komplexer Datenanalysen.",
@@ -53,22 +53,24 @@
     "present": "Heute",
     "items": {
       "uniandesRag": {
-        "role": "AI Engineer",
+        "role": "LLM-Anwendungsentwickler",
         "company": "Universidad de los Andes",
-        "location": "Akademisches Vizerektorat · Bogotá",
+        "location": "Akademisches Vizerektorat · Bogotá (remote, Teilzeit)",
         "period": "Mai 2026 — Heute",
         "highlights": [
-          "Entwicklung einer RAG-Anwendung für Platypus, die institutionelle Projektplattform der Universität, zur Automatisierung der Erstellung und Analyse von Ausschreibungen für akademische Projekte.",
-          "Integration von Sprachmodellen in die Prozesse des Vizerektorats, um manuelle Arbeit in der Ausschreibungsverwaltung zu reduzieren — in enger Zusammenarbeit mit akademischen und administrativen Teams."
+          "Integration generativer KI in die institutionellen Systeme über Platypus, die Projektplattform der Universität — in direkter Zusammenarbeit mit der Fakultät für Ingenieurwesen und dem Team für Digitale Transformation.",
+          "Konzeption und Bereitstellung von RAG-Architekturen (Retrieval-Augmented Generation), die die Erstellung und Analyse von Ausschreibungen für akademische Projekte automatisieren.",
+          "Entwicklung von REST-APIs mit Flask zur Orchestrierung und Bereitstellung der KI-Modelle.",
+          "Integration und Evaluierung mehrerer großer Sprachmodelle (LLMs) verschiedener Anbieter, um die Leistung für konkrete Anwendungsfälle zu optimieren."
         ]
       },
       "finidian": {
         "role": "Product Engineer",
         "company": "Finidian",
-        "location": "Bogotá (remote)",
+        "location": "Madrid, Spanien (remote)",
         "period": "Jan. 2026 — Heute",
         "highlights": [
-          "Ich arbeite an der Schnittstelle von Engineering und Produkt: End-to-End-Beiträge von der Produktdefinition und Priorisierung bis zur technischen Umsetzung in Produktion.",
+          "Leite die End-to-End-Entwicklung der zentralen Proptech-Plattform von Finidian, die den Hypothekenprozess vereinfacht — von der Produktdefinition und Priorisierung bis zur technischen Umsetzung in Produktion.",
           "Leitete eine kritische Datenbankmigration von MongoDB zu PostgreSQL — mit gesicherter Datenintegrität, minimaler Ausfallzeit und optimierter Abfrageleistung für skalierbare Backend-Prozesse.",
           "Entwerfe und betreibe skalierbare Cloud-Infrastruktur auf AWS für hochverfügbare Microservices und schnelle Produktiterationen.",
           "Arbeite in einem agilen Remote-Team an schlankeren Deployment-Prozessen und einer besseren Gesamtarchitektur."
@@ -112,6 +114,12 @@
     "title": "Projekte",
     "subtitle": "Ausgewählte Arbeiten",
     "items": {
+      "moirai": {
+        "name": "Moirai",
+        "tag": "Hackathon · 2026",
+        "description": "Digitaler Gesundheitszwilling, in 36 Stunden beim Platanus Hack 26 Bogotá (Track Simulations) gebaut. Liest 9 Biomarker aus einem Bluttest, misst das biologische Alter mit der PhenoAge-Uhr und simuliert per gepaartem Monte Carlo zehntausend Alterungsverläufe über zehn Jahre, um zu empfehlen, welche Gewohnheit pro Aufwand die meisten Lebensjahre bringt.",
+        "linkLabel": "Moirai ansehen"
+      },
       "andestrack": {
         "name": "AndesTrack",
         "tag": "Abschlussarbeit · 2025",
@@ -154,6 +162,23 @@
         "title": "IEEEXtreme 17.0",
         "description": "Nahm mit dem Team CabrasRecursivas am weltweiten Programmierwettbewerb der IEEE teil (über 17.000 Teilnehmende) — Oktober 2023.",
         "links": []
+      },
+      {
+        "title": "NVIDIA-Zertifizierung · Anomaly Detection",
+        "description": "Certificate of Competency in „Applications of AI for Anomaly Detection“ von NVIDIA, erworben auf der AI WEEK 2026 (Oktober 2026): Anwendung von KI-Methoden zur Erkennung auffälliger Muster in Daten, in einem Workshop von NVIDIA, SoftServe, der Universidad de los Andes und der Escuela de Ingeniería de Antioquia.",
+        "links": [
+          { "label": "Zertifikat ansehen", "href": "/assets/docs/certificado-nvidia-anomaly-detection.webp" },
+          { "label": "LinkedIn-Beitrag", "href": "https://www.linkedin.com/feed/update/urn:li:activity:7511535060022452224/" }
+        ]
+      },
+      {
+        "title": "Platanus Hack 26 · Bogotá",
+        "description": "36-Stunden-Hackathon mit über 100 hochqualifizierten Teilnehmenden (August 2026). In einem interdisziplinären Team bauten wir Moirai, einen digitalen Gesundheitszwilling für den Track Simulations — alle trugen zu Entwicklung, Architektur, Design und Konzeption bei.",
+        "links": [
+          { "label": "App ansehen", "href": "https://moirai.uo.ar/" },
+          { "label": "Code auf GitHub", "href": "https://github.com/platanus-hack/platanus-hack-26-co-team-37" },
+          { "label": "LinkedIn-Beitrag", "href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503633824212426753/" }
+        ]
       }
     ]
   },
@@ -161,6 +186,11 @@
     "title": "Momente",
     "subtitle": "Meilensteine und Ereignisse, die meinen Weg geprägt haben",
     "events": {
+      "platanus-hack-26": {
+        "title": "Platanus Hack 26 · Bogotá",
+        "description": "36 Stunden mit meinem Team an Moirai gebaut — einem digitalen Gesundheitszwilling —, inmitten von über 100 Hackern in Bogotá.",
+        "linkLabel": "LinkedIn-Beitrag ansehen"
+      },
       "representacion-estudiantil": {
         "title": "Studierendenvertretung",
         "description": "Momente des Wandels im Fachbereich: Auszeichnungen, die offiziellen Hoodies und eine engere Gemeinschaft.",

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Felipe Rueda Rivera — Ingeniero de Software Cloud & Backend",
+    "title": "Felipe Rueda Rivera — Ingeniero de Producto · Cloud & Backend",
     "description": "Ingeniero de software cloud-native enfocado en diseñar, migrar y asegurar arquitecturas escalables en AWS. Backend, microservicios y soluciones de IA (RAG)."
   },
   "nav": {
@@ -25,9 +25,9 @@
     "goToPhoto": "Ir a la foto"
   },
   "hero": {
-    "badge": "Disponible para trabajo remoto",
+    "badge": "Disponible para trabajo híbrido o remoto",
     "greeting": "Hola, soy",
-    "role": "Ingeniero de Software Cloud & Backend",
+    "role": "Ingeniero de Producto · Cloud & Backend",
     "rotatingWords": ["Diseño", "Migro", "Aseguro", "Escalo"],
     "rotatingSuffix": "arquitecturas cloud",
     "summary": "Diseño, migro y aseguro arquitecturas escalables en AWS. Me especializo en desarrollo backend, migraciones complejas de bases de datos, microservicios resilientes e integración de soluciones de IA —como RAG— para automatizar el análisis de datos complejos.",
@@ -53,22 +53,24 @@
     "present": "Presente",
     "items": {
       "uniandesRag": {
-        "role": "Ingeniero de IA",
+        "role": "Desarrollador de Aplicaciones LLM",
         "company": "Universidad de los Andes",
-        "location": "Vicerrectoría Académica · Bogotá",
+        "location": "Vicerrectoría Académica · Bogotá (remoto, medio tiempo)",
         "period": "Mayo 2026 — Presente",
         "highlights": [
-          "Desarrollo una aplicación RAG para Platypus, la plataforma institucional de proyectos de la universidad, orientada a automatizar la creación y el análisis de convocatorias de proyectos académicos.",
-          "Integro modelos de lenguaje con los procesos de la Vicerrectoría para reducir el trabajo manual en la gestión de convocatorias, de la mano de los equipos académicos y administrativos."
+          "Integro IA generativa en los sistemas institucionales a través de Platypus, la plataforma de proyectos de la universidad, en colaboración directa con la Facultad de Ingeniería y el área de Transformación Digital.",
+          "Diseño y despliego arquitecturas de Retrieval-Augmented Generation (RAG) que automatizan la creación y el análisis de convocatorias de proyectos académicos.",
+          "Construyo APIs REST con Flask para orquestar y servir los modelos de IA.",
+          "Integro y evalúo múltiples modelos de lenguaje (LLMs) de distintos proveedores para optimizar el rendimiento en cada caso de uso."
         ]
       },
       "finidian": {
         "role": "Ingeniero de Producto",
         "company": "Finidian",
-        "location": "Bogotá (remoto)",
+        "location": "Madrid, España (remoto)",
         "period": "Ene 2026 — Presente",
         "highlights": [
-          "Trabajo en la intersección de ingeniería y producto: contribuyo de punta a punta, desde la definición y priorización del producto hasta su implementación técnica en producción.",
+          "Lidero el desarrollo de punta a punta de la plataforma Proptech insignia de Finidian, diseñada para agilizar el proceso hipotecario: desde la definición y priorización del producto hasta su implementación técnica en producción.",
           "Lideré una migración crítica de base de datos de MongoDB a PostgreSQL, garantizando la integridad de los datos, minimizando el downtime y optimizando el rendimiento de consultas.",
           "Diseño y mantengo infraestructura cloud escalable en AWS, soportando microservicios de alta disponibilidad para iteraciones de producto aceleradas.",
           "Colaboro en un entorno ágil y remoto para agilizar los despliegues y mejorar la arquitectura general del sistema."
@@ -112,6 +114,12 @@
     "title": "Proyectos",
     "subtitle": "Trabajo seleccionado",
     "items": {
+      "moirai": {
+        "name": "Moirai",
+        "tag": "Hackatón · 2026",
+        "description": "Gemelo digital de salud creado en 36 horas en Platanus Hack 26 Bogotá (track de Simulaciones). Lee 9 biomarcadores de un examen de sangre, mide la edad biológica con el reloj PhenoAge y simula diez mil trayectorias de envejecimiento a diez años con Monte Carlo pareado para recomendar qué hábito te da más años por unidad de esfuerzo.",
+        "linkLabel": "Ver Moirai"
+      },
       "andestrack": {
         "name": "AndesTrack",
         "tag": "Tesis de grado · 2025",
@@ -154,6 +162,23 @@
         "title": "IEEEXtreme 17.0",
         "description": "Competí en la competencia mundial de programación de IEEE (más de 17.000 participantes) con el equipo CabrasRecursivas — octubre de 2023.",
         "links": []
+      },
+      {
+        "title": "Certificación NVIDIA · Anomaly Detection",
+        "description": "Certificado de competencia en «Applications of AI for Anomaly Detection» de NVIDIA, obtenido en la AI WEEK 2026 (octubre de 2026): implementé técnicas de IA para detectar comportamientos atípicos en los datos, en un workshop facilitado por NVIDIA, SoftServe, la Universidad de los Andes y la Escuela de Ingeniería de Antioquia.",
+        "links": [
+          { "label": "Ver certificado", "href": "/assets/docs/certificado-nvidia-anomaly-detection.webp" },
+          { "label": "Publicación en LinkedIn", "href": "https://www.linkedin.com/feed/update/urn:li:activity:7511535060022452224/" }
+        ]
+      },
+      {
+        "title": "Platanus Hack 26 · Bogotá",
+        "description": "Hackatón de 36 horas con más de 100 participantes de altísimo nivel (agosto de 2026). En un equipo multidisciplinario construimos Moirai, un gemelo digital de salud para el track de Simulaciones, aportando todos en desarrollo, arquitectura, diseño y conceptualización.",
+        "links": [
+          { "label": "Ver la app", "href": "https://moirai.uo.ar/" },
+          { "label": "Código en GitHub", "href": "https://github.com/platanus-hack/platanus-hack-26-co-team-37" },
+          { "label": "Publicación en LinkedIn", "href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503633824212426753/" }
+        ]
       }
     ]
   },
@@ -161,6 +186,11 @@
     "title": "Momentos",
     "subtitle": "Hitos y eventos que han marcado mi camino",
     "events": {
+      "platanus-hack-26": {
+        "title": "Platanus Hack 26 · Bogotá",
+        "description": "36 horas construyendo Moirai —un gemelo digital de salud— con mi equipo, entre más de 100 hackers en Bogotá.",
+        "linkLabel": "Ver la publicación en LinkedIn"
+      },
       "representacion-estudiantil": {
         "title": "Representación estudiantil",
         "description": "Momentos del cambio que impulsamos en el departamento: reconocimientos, los sacos oficiales y una comunidad más unida.",

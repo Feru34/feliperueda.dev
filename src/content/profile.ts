@@ -9,7 +9,7 @@ export const profile = {
   firstName: "Felipe",
   email: "feliperuedarivera10@gmail.com",
   location: "Bogotá, Colombia",
-  photo: "/assets/images/profile/foto-perfil.jpg",
+  photo: "/assets/images/profile/foto-perfil-2026.jpg",
   links: {
     linkedin: "https://www.linkedin.com/in/feliperuedarivera",
     github: "https://github.com/Feru34",
@@ -52,7 +52,7 @@ export const skillGroups: { key: SkillGroupKey; items: string[] }[] = [
   },
   {
     key: "web",
-    items: ["Microservices", "REST APIs", "ETL Pipelines", "Angular", "React", "Node.js"],
+    items: ["Microservices", "REST APIs", "Flask", "ETL Pipelines", "Angular", "React", "Node.js"],
   },
 ];
 
@@ -76,7 +76,7 @@ export const experience: ExperienceEntry[] = [
   {
     key: "uniandesRag",
     company: "Universidad de los Andes",
-    tech: ["Python", "RAG", "LLMs"],
+    tech: ["Python", "Flask", "RAG", "LLMs", "REST APIs"],
     url: "https://uniandes.edu.co",
     extraLink: { label: "platypus.uniandes.edu.co", href: "https://platypus.uniandes.edu.co/" },
   },
@@ -100,9 +100,15 @@ export const experience: ExperienceEntry[] = [
   },
 ];
 
-export type ProjectKey = "andestrack" | "ragAnalyzer" | "riskPlatform";
+export type ProjectKey = "moirai" | "andestrack" | "ragAnalyzer" | "riskPlatform";
 
 export const projects: { key: ProjectKey; tech: string[]; link?: string; repo?: string }[] = [
+  {
+    key: "moirai",
+    tech: ["Flutter", "Python", "TypeScript", "PostgreSQL", "Monte Carlo"],
+    link: "https://moirai.uo.ar/",
+    repo: "https://github.com/platanus-hack/platanus-hack-26-co-team-37",
+  },
   {
     key: "andestrack",
     tech: ["Django", "MySQL", "Garmin API", "Gunicorn", "Linux"],
